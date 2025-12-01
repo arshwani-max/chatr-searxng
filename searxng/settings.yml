@@ -1,19 +1,63 @@
 ﻿use_default_settings: false
 
 server:
-  secret_key: "CHATR-INDIA-"20251201-144536""
-  public_instance: true
-  allow_public_api: true
+  secret_key: "chatr-secret-key-12345"
+  base_url: "https://chatr-searxng.onrender.com/"
   image_proxy: true
+  public_instance: true
+  limiter: false
 
 search:
-  default_lang: "en-IN"
-  default_locale: "IN"
-  country: "IN"
+  formats:
+    - html
+    - json
+    - csv
+  safe_search: 0
+  autocomplete: "duckduckgo"
+  default_lang: "en"
 
 ui:
-  query_in_title: true
-  infinite_scroll: true
+  static_use_hash: false
+  https_rewrite: true
+  default_theme: simple
 
-output_formats:
-  json: true
+engines:
+  - name: duckduckgo
+    engine: duckduckgo
+    timeout: 3
+
+  - name: brave
+    engine: brave
+    timeout: 3
+
+  - name: bing
+    engine: bing
+    timeout: 3
+    disabled: false
+
+  - name: wikipedia
+    engine: wikipedia
+    timeout: 3
+
+  - name: github
+    engine: github
+    timeout: 3
+
+enabled_plugins:
+  - "Basic Calculator"
+  - "Hostname"
+  - "Open Access DOI"
+  - "Search Language Switcher"
+
+outgoing:
+  request_timeout: 5.0
+  max_redirects: 5
+  useragent_suffix: "CHATR"
+  use_useragent_suffix: true
+
+redis:
+  url: false
+
+# Custom CHATR indexing data
+chatr:
+  categories_file: "/etc/searxng/chatr_categories.delhi_ncr.json"
