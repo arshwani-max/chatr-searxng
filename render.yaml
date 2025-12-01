@@ -1,0 +1,7 @@
+﻿services:
+  - type: web
+    name: chatr-searxng
+    env: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true

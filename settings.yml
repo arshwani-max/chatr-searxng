@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  searxng:
+    # Use the official Searxng image, or your custom built image name
+    # Since your original output showed 'searxng_v11-searxng:latest', 
+    # we'll use a generic name for portability. If you must use your local build, 
+    # replace 'searxng/searxng:latest' with 'searxng_v11-searxng:latest'
+    image: searxng/searxng:latest
+    container_name: searxng
+    
+    # CRITICAL FIX: Map the internal port 8080 to the host's port 8080.
+    ports:
+      - "8080:8080"
+      
+    # Mount the custom settings.yml file into the container's config path.
+    # This overrides the default settings.
+    volumes:
+      - ./settings.yml:/etc/searxng/settings.yml
+      
+    # Set the restart policy to always keep the container running
+    restart: always
+    
+    # Optional: Set the user for security best practice
+    user: 1000
