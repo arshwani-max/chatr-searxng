@@ -11,8 +11,8 @@ general:
 server:
   bind_address: "0.0.0.0"
   port: 8080
+  secret_key: "chatr-secret-key"
   method: "POST"
-  secret_key: "replace-this-with-any-random-string"
 
 ui:
   theme: simple
@@ -22,7 +22,6 @@ search:
   autocomplete: "duckduckgo"
 
 engines:
-  # Default safe engines
   - name: duckduckgo
     engine: duckduckgo
     disabled: false
@@ -34,77 +33,5 @@ engines:
   - name: wikipedia
     engine: wikipedia
     disabled: false
-
-  # -----------------------------
-  # INDIAN ENGINES START HERE
-  # -----------------------------
-
-  - name: google_india
-    engine: google
-    lang: en-IN
-    gl: IN
-    country: IN
-    disabled: false
-    categories: [general]
-
-  - name: duckduckgo_india
-    engine: duckduckgo
-    lang: en-IN
-    region: in-en
-    categories: [general]
-
-  - name: bing_india
-    engine: bing
-    lang: en-IN
-    market: en-IN
-    categories: [general]
-
-  - name: justdial
-    engine: xpath
-    search_url: "https://www.justdial.com/search?keyword={query}"
-    results_xpath: "//section[contains(@class,'rslwrp')]//a"
-    title_xpath: ".//h2"
-    url_xpath: ".//@href"
-    categories: [local]
-
-  - name: indiamart
-    engine: xpath
-    search_url: "https://dir.indiamart.com/search.mp?ss={query}"
-    results_xpath: "//div[contains(@class,'lst')]//a"
-    title_xpath: ".//h2"
-    url_xpath: "./@href"
-    categories: [shopping]
-
-  - name: olx_india
-    engine: xpath
-    search_url: "https://www.olx.in/items/q-{query}"
-    results_xpath: "//li//a[contains(@href,'item')]"
-    title_xpath: ".//span"
-    url_xpath: "./@href"
-    categories: [shopping]
-
-  - name: practo
-    engine: xpath
-    search_url: "https://www.practo.com/search/doctors?q={query}"
-    results_xpath: "//a[contains(@class,'doctor-card')]"
-    title_xpath: ".//h2"
-    url_xpath: "./@href"
-    categories: [health]
-
-  - name: zomato
-    engine: xpath
-    search_url: "https://www.zomato.com/search?query={query}"
-    results_xpath: "//a[contains(@href,'restaurant')]"
-    title_xpath: ".//h4"
-    url_xpath: "./@href"
-    categories: [food]
-
-  - name: urban_company
-    engine: xpath
-    search_url: "https://www.urbancompany.com/search?term={query}"
-    results_xpath: "//a[contains(@class,'ListingCard')]"
-    title_xpath: ".//h3"
-    url_xpath: "./@href"
-    categories: [services]
 
 categories_as_tabs: true
