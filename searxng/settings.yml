@@ -1,6 +1,7 @@
 ﻿use_default_settings: false
 
 server:
+  allow_api: true
   base_url: "https://chatr-searxng.onrender.com/"
   binding: "0.0.0.0:8080"
   secret_key: "chatr-secret-key-12345"
@@ -59,3 +60,4 @@ outgoing:
 
 redis:
   url: false
+
