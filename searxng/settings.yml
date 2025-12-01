@@ -1,20 +1,21 @@
 ﻿use_default_settings: false
 
 server:
-  secret_key: "chatr-secret-key-12345"
   base_url: "https://chatr-searxng.onrender.com/"
-  image_proxy: true
-  public_instance: true
+  binding: "0.0.0.0:8080"
+  secret_key: "chatr-secret-key-12345"
   limiter: false
+  public_instance: true
+  image_proxy: true
 
 search:
+  safe_search: 0
+  autocomplete: "duckduckgo"
+  default_lang: "en"
   formats:
     - html
     - json
     - csv
-  safe_search: 0
-  autocomplete: "duckduckgo"
-  default_lang: "en"
 
 ui:
   static_use_hash: false
@@ -24,23 +25,22 @@ ui:
 engines:
   - name: duckduckgo
     engine: duckduckgo
+    disabled: false
     timeout: 3
 
   - name: brave
     engine: brave
+    disabled: false
     timeout: 3
 
   - name: bing
     engine: bing
-    timeout: 3
     disabled: false
+    timeout: 3
 
   - name: wikipedia
     engine: wikipedia
-    timeout: 3
-
-  - name: github
-    engine: github
+    disabled: false
     timeout: 3
 
 enabled_plugins:
@@ -58,6 +58,6 @@ outgoing:
 redis:
   url: false
 
-# Custom CHATR indexing data
+# CHATR custom data
 chatr:
   categories_file: "/etc/searxng/chatr_categories.delhi_ncr.json"
