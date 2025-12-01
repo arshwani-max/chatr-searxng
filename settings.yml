@@ -1,0 +1,59 @@
+﻿use_default_settings: false
+
+server:
+  secret_key: "chatr-secret"
+  base_url: "https://chatr-searxng.onrender.com"
+  public_instance: true
+  api:
+    enabled: true
+    formats: ["json", "csv"]
+
+search:
+  autocomplete: "google"
+  safe_search: 0
+
+ui:
+  static_path: ""
+  templates_path: ""
+  default_theme: simple
+  theme_args:
+    simple_style: auto
+    categories_as_tabs: {}
+
+engines:
+  - name: duckduckgo
+    engine: duckduckgo
+    disabled: false
+
+  - name: brave
+    engine: brave
+    disabled: false
+
+  - name: bing_india
+    engine: bing
+    market: "en-IN"
+    disabled: false
+
+  - name: sulekha
+    engine: xpath
+    disabled: false
+    search_url: "https://www.sulekha.com/{query}/{location}"
+
+  - name: indiamart
+    engine: xpath
+    disabled: false
+    search_url: "https://dir.indiamart.com/search.mp?ss={query}"
+
+  - name: justdial
+    engine: xpath
+    disabled: false
+    search_url: "https://www.justdial.com/{location}/{query}"
+
+  - name: nominatim
+    engine: nominatim
+    base_url: "https://nominatim.openstreetmap.org/"
+    disabled: false
+
+  - name: photon
+    engine: photon
+    disabled: false
