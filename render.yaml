@@ -2,6 +2,7 @@
   - type: web
     name: chatr-searxng
     env: docker
+    region: singapore
     plan: starter
     dockerfilePath: ./Dockerfile
     autoDeploy: true
