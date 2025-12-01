@@ -1,69 +1,19 @@
-﻿general:
-  debug: false
-  instance_name: "Chatr Search"
-  categories_as_tabs:
-    general: General
-    images: Images
-    videos: Videos
-    news: News
-    map: Map
-    it: IT
-    science: Science
-    files: Files
-    social_media: Social
+﻿use_default_settings: false
 
 server:
-  port: 8080
-  bind_address: "0.0.0.0"
+  secret_key: "CHATR-INDIA-"20251201-144536""
+  public_instance: true
+  allow_public_api: true
+  image_proxy: true
 
 search:
-  safe_search: 0
-  autocomplete: "google"
+  default_lang: "en-IN"
+  default_locale: "IN"
+  country: "IN"
 
-outgoing:
-  request_timeout: 3.0
-  max_retry: 1
-  pool_connections: 20
-  pool_maxsize: 50
+ui:
+  query_in_title: true
+  infinite_scroll: true
 
-engines:
-  - name: google
-    engine: google
-    disabled: false
-
-  - name: bing
-    engine: bing
-    disabled: false
-
-  - name: mojeek
-    engine: mojeek
-    disabled: false
-
-  - name: wikipedia
-    engine: wikipedia
-    disabled: false
-
-  - name: stackoverflow
-    engine: stackoverflow
-    disabled: false
-
-  - name: openstreetmap
-    engine: osm
-    disabled: false
-
-  - name: qwant
-    engine: qwant
-    disabled: false
-
-  - name: duckduckgo
-    disabled: true
-  - name: yahoo
-    disabled: true
-  - name: brave
-    disabled: true
-  - name: startpage
-    disabled: true
-  - name: torch
-    disabled: true
-  - name: ahmia
-    disabled: true
+output_formats:
+  json: true
