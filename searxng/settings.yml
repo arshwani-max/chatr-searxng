@@ -1,15 +1,14 @@
 ﻿use_default_settings: false
 
 server:
-  allow_api: true
   base_url: "https://chatr-searxng.onrender.com/"
   binding: "0.0.0.0:8080"
   secret_key: "chatr-secret-key-12345"
   limiter: false
   public_instance: true
   image_proxy: true
-
-  chatr_categories_file: "/etc/searxng/chatr_categories.delhi_ncr.json"
+  allow_api: true
+  debug: false
 
 search:
   safe_search: 0
@@ -61,3 +60,15 @@ outgoing:
 redis:
   url: false
 
+# REMOVE ALL SECURITY BLOCKERS (fix 403)
+server:
+  public_instance: true
+  allow_api: true
+
+general:
+  enable_http_api: true
+  debug: false
+
+# CHATR custom
+chatr:
+  categories_file: "/etc/searxng/chatr_categories.delhi_ncr.json"
