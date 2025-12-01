@@ -1,5 +1,10 @@
 ﻿use_default_settings: false
 
+general:
+  debug: false
+  instance_name: "CHATR SearXNG"
+  enable_metrics: false
+
 server:
   base_url: "https://chatr-searxng.onrender.com/"
   binding: "0.0.0.0:8080"
@@ -12,6 +17,10 @@ search:
   safe_search: 0
   autocomplete: "duckduckgo"
   default_lang: "en"
+  languages:
+    - en
+  default_theme: simple
+
   formats:
     - html
     - json
@@ -27,27 +36,35 @@ engines:
     engine: duckduckgo
     disabled: false
     timeout: 3
+    categories:
+      - general
 
   - name: brave
     engine: brave
     disabled: false
     timeout: 3
+    categories:
+      - general
 
   - name: bing
     engine: bing
     disabled: false
     timeout: 3
+    categories:
+      - general
 
   - name: wikipedia
     engine: wikipedia
     disabled: false
     timeout: 3
+    categories:
+      - general
 
 enabled_plugins:
-  - "Basic Calculator"
-  - "Hostname"
-  - "Open Access DOI"
-  - "Search Language Switcher"
+  - Basic Calculator
+  - Hostname
+  - Open Access DOI
+  - Search Language Switcher
 
 outgoing:
   request_timeout: 5.0
@@ -58,6 +75,5 @@ outgoing:
 redis:
   url: false
 
-# CHATR custom data
 chatr:
   categories_file: "/etc/searxng/chatr_categories.delhi_ncr.json"
