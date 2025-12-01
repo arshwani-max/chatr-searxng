@@ -1,59 +1,69 @@
-﻿use_default_settings: false
+﻿general:
+  debug: false
+  instance_name: "Chatr Search"
+  categories_as_tabs:
+    general: General
+    images: Images
+    videos: Videos
+    news: News
+    map: Map
+    it: IT
+    science: Science
+    files: Files
+    social_media: Social
 
 server:
-  secret_key: "chatr-secret"
-  base_url: "https://chatr-searxng.onrender.com"
-  public_instance: true
-  api:
-    enabled: true
-    formats: ["json", "csv"]
+  port: 8080
+  bind_address: "0.0.0.0"
 
 search:
-  autocomplete: "google"
   safe_search: 0
+  autocomplete: "google"
 
-ui:
-  static_path: ""
-  templates_path: ""
-  default_theme: simple
-  theme_args:
-    simple_style: auto
-    categories_as_tabs: {}
+outgoing:
+  request_timeout: 3.0
+  max_retry: 1
+  pool_connections: 20
+  pool_maxsize: 50
 
 engines:
-  - name: duckduckgo
-    engine: duckduckgo
+  - name: google
+    engine: google
     disabled: false
 
-  - name: brave
-    engine: brave
-    disabled: false
-
-  - name: bing_india
+  - name: bing
     engine: bing
-    market: "en-IN"
     disabled: false
 
-  - name: sulekha
-    engine: xpath
-    disabled: false
-    search_url: "https://www.sulekha.com/{query}/{location}"
-
-  - name: indiamart
-    engine: xpath
-    disabled: false
-    search_url: "https://dir.indiamart.com/search.mp?ss={query}"
-
-  - name: justdial
-    engine: xpath
-    disabled: false
-    search_url: "https://www.justdial.com/{location}/{query}"
-
-  - name: nominatim
-    engine: nominatim
-    base_url: "https://nominatim.openstreetmap.org/"
+  - name: mojeek
+    engine: mojeek
     disabled: false
 
-  - name: photon
-    engine: photon
+  - name: wikipedia
+    engine: wikipedia
     disabled: false
+
+  - name: stackoverflow
+    engine: stackoverflow
+    disabled: false
+
+  - name: openstreetmap
+    engine: osm
+    disabled: false
+
+  - name: qwant
+    engine: qwant
+    disabled: false
+
+  - name: duckduckgo
+    disabled: true
+  - name: yahoo
+    disabled: true
+  - name: brave
+    disabled: true
+  - name: startpage
+    disabled: true
+  - name: torch
+    disabled: true
+  - name: ahmia
+    disabled: true
