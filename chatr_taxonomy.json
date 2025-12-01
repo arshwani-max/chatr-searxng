@@ -1,0 +1,116 @@
+﻿{
+    "version":  "1.0",
+    "industries":  {
+                       "Beauty \u0026 Wellness":  [
+                                                      "Salon",
+                                                      "Spa",
+                                                      "Massage",
+                                                      "Makeup",
+                                                      "Nail Art"
+                                                  ],
+                       "Food \u0026 Restaurants":  [
+                                                       "Restaurants",
+                                                       "Street Food",
+                                                       "Tiffin Service",
+                                                       "Biryani",
+                                                       "Cafes",
+                                                       "Cloud Kitchens"
+                                                   ],
+                       "Real Estate":  [
+                                           "Flats",
+                                           "PG",
+                                           "Hostels",
+                                           "Commercial",
+                                           "Plots"
+                                       ],
+                       "Tech \u0026 SaaS":  [
+                                                "CRM",
+                                                "ERP",
+                                                "HR Tools",
+                                                "AI Tools",
+                                                "Productivity apps"
+                                            ],
+                       "Healthcare \u0026 Medical":  [
+                                                         "Hospitals",
+                                                         "Clinics",
+                                                         "Pharmacy",
+                                                         "Diagnostics",
+                                                         "Dentist",
+                                                         "Dermatologist",
+                                                         "Cardiologist",
+                                                         "Home Nursing"
+                                                     ],
+                       "Finance, Banking \u0026 Insurance":  [
+                                                                 "Bank",
+                                                                 "ATM",
+                                                                 "Loans",
+                                                                 "Credit Cards",
+                                                                 "Insurance",
+                                                                 "Mutual Funds"
+                                                             ],
+                       "Travel \u0026 Tourism":  [
+                                                     "Hotels",
+                                                     "Flights",
+                                                     "Cabs",
+                                                     "Buses",
+                                                     "Tour Packages",
+                                                     "Train Status"
+                                                 ],
+                       "Jobs \u0026 Hiring":  [
+                                                  "Jobs",
+                                                  "Internships",
+                                                  "Campus hiring",
+                                                  "Walk-ins",
+                                                  "Remote Jobs"
+                                              ],
+                       "Home Services":  [
+                                             "Plumber",
+                                             "Electrician",
+                                             "Carpenter",
+                                             "AC Repair",
+                                             "Geyser Repair",
+                                             "Home Cleaning",
+                                             "Pest Control",
+                                             "Painter"
+                                         ],
+                       "Retail \u0026 Shopping":  [
+                                                      "Mobiles",
+                                                      "Groceries",
+                                                      "Electronics",
+                                                      "Fashion",
+                                                      "Furniture",
+                                                      "Medicines"
+                                                  ],
+                       "Legal \u0026 Government":  [
+                                                       "Lawyers",
+                                                       "CA",
+                                                       "GST",
+                                                       "PAN card",
+                                                       "Aadhaar",
+                                                       "Passport"
+                                                   ],
+                       "Automobiles":  [
+                                           "Car Repair",
+                                           "Bike Repair",
+                                           "EV Charging",
+                                           "Car Wash",
+                                           "Tyres"
+                                       ],
+                       "Local Services":  [
+                                              "Courier",
+                                              "Laundry",
+                                              "Tailor",
+                                              "Photocopy",
+                                              "Cyber Cafe",
+                                              "Printer Repair"
+                                          ],
+                       "Education \u0026 Careers":  [
+                                                        "Colleges",
+                                                        "Schools",
+                                                        "Coaching",
+                                                        "Courses",
+                                                        "Tutors",
+                                                        "Career Counseling"
+                                                    ]
+                   }
+}

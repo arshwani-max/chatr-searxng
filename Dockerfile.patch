@@ -1,0 +1,4 @@
+FROM searxng_v11-searxng:patched
+
+# Install python requests module for CHATR engine
+RUN pip3 install --no-cache-dir requests

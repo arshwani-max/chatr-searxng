@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CHATR Local Â· Place Profile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="chatr-body">
+<header class="chatr-header">
+  <div class="chatr-logo-area">
+    <div class="chatr-logo">CHATR<span>Local</span></div>
+    <div class="chatr-location-pill" id="location-pill">
+      Detecting locationâ€¦
+    </div>
+  </div>
+</header>
+
+<main class="chatr-main">
+  <section class="place-hero">
+    <div class="place-hero-info">
+      <div class="place-chip-row">
+        <span id="place-category-chip" class="chip chip-soft"></span>
+        <span id="partner-chip" class="chip chip-partner" style="display:none;">CHATR Partner</span>
+      </div>
+      <h1 id="place-name">Loadingâ€¦</h1>
+      <div class="place-rating-row" id="place-rating-row">
+        <!-- rating stars injected -->
+      </div>
+      <div id="place-address" class="place-address"></div>
+      <div id="place-distance" class="place-distance"></div>
+    </div>
+    <div class="place-actions">
+      <button id="call-btn" class="primary-action" disabled>Call</button>
+      <button id="whatsapp-btn" class="secondary-action" disabled>WhatsApp</button>
+      <button id="navigate-btn" class="secondary-action" disabled>Navigate</button>
+    </div>
+  </section>
+
+  <section class="place-layout">
+    <div class="place-main-col">
+      <section class="card-block" id="packages-section" style="display:none;">
+        <div class="card-block-header">
+          <h2>Popular Packages</h2>
+        </div>
+        <div id="packages-list" class="packages-list"></div>
+      </section>
+
+      <section class="card-block" id="about-section">
+        <div class="card-block-header">
+          <h2>About</h2>
+        </div>
+        <p id="place-about">No description provided. This is a verified listing from CHATR Local search.</p>
+      </section>
+
+      <section class="card-block" id="tags-section" style="display:none;">
+        <div class="card-block-header">
+          <h2>Highlights</h2>
+        </div>
+        <div id="tags-container" class="tags-container"></div>
+      </section>
+    </div>
+
+    <aside class="place-side-col">
+      <section class="card-block small-card">
+        <div class="card-block-header">
+          <h3>Live Map</h3>
+        </div>
+        <canvas id="place-map-canvas"></canvas>
+        <div class="map-sub tiny">Blue = you, Purple = this place</div>
+      </section>
+
+      <section class="card-block small-card" id="hours-section" style="display:none;">
+        <div class="card-block-header">
+          <h3>Opening Hours</h3>
+        </div>
+        <div id="hours-list" class="hours-list"></div>
+      </section>
+    </aside>
+  </section>
+</main>
+
+<footer class="chatr-footer">
+  <a href="index.html">â† Back to Home</a>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    window.chatrLocal.initPage("place");
+  });
+</script>
+</body>
+</html>

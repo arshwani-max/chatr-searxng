@@ -1,0 +1,15 @@
+﻿{
+    "category":  "news",
+    "sources":  [
+                    "Times of India",
+                    "Hindustan Times",
+                    "Indian Express",
+                    "NDTV",
+                    "ABP News",
+                    "Zee News",
+                    "AajTak",
+                    "Economic Times",
+                    "Mint"
+                ],
+    "count":  9
+}

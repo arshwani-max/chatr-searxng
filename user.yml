@@ -1,0 +1,10 @@
+﻿use_default_settings: true
+
+server:
+  secret_key: "Wr1JkG5VxLBlpXb3CIcOYywQKthugqHi"
+
+engines:
+  - name: chatr-hybrid-api
+    engine: chatr_hybrid 
+    categories: [general, health, jobs, food, local, finance]
+    timeout: 15.0 

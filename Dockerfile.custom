@@ -1,0 +1,23 @@
+﻿FROM python:3.11-slim
+
+# Install system dependencies needed to build psycopg2 (PostgreSQL driver)
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        git \
+        build-essential \
+        libpq-dev \
+        libxslt1-dev \
+        python3-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /usr/local/searxng
+
+COPY . .
+
+# Install Python requirements + psycopg2-binary (Combined and fixed)
+RUN pip install --no-cache-dir -r requirements.txt \
+    && pip install --no-cache-dir psycopg2-binary requests
+
+EXPOSE 8080
+
+CMD ["python3", "-m", "searx.webapp"]

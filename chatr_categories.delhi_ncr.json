@@ -1,0 +1,571 @@
+﻿[
+  {
+    "industry": "Hospitals",
+    "slug": "hospitals",
+    "subcategories": [
+      "Multi-speciality hospital",
+      "Super speciality hospital",
+      "Emergency & trauma care",
+      "Maternity hospital",
+      "Children hospital"
+    ],
+    "cities": ["Delhi", "New Delhi", "Noida", "Greater Noida", "Gurugram", "Faridabad", "Ghaziabad", "Delhi NCR"]
+  },
+  {
+    "industry": "Clinics",
+    "slug": "clinics",
+    "subcategories": [
+      "General physician clinic",
+      "Family clinic",
+      "Walk-in clinic",
+      "24x7 clinic",
+      "Home visit clinic"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad"]
+  },
+  {
+    "industry": "Doctors - General Physicians",
+    "slug": "doctors-general-physicians",
+    "subcategories": [
+      "MBBS doctor",
+      "Family doctor",
+      "Internal medicine",
+      "Home visit doctor"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad"]
+  },
+  {
+    "industry": "Doctors - Specialists",
+    "slug": "doctors-specialists",
+    "subcategories": [
+      "Cardiologist",
+      "Neurologist",
+      "Orthopedic",
+      "Gynaecologist",
+      "Paediatrician",
+      "Dermatologist",
+      "ENT specialist"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad"]
+  },
+  {
+    "industry": "Dentists",
+    "slug": "dentists",
+    "subcategories": [
+      "Dental clinic",
+      "Orthodontist",
+      "Root canal specialist",
+      "Cosmetic dentist"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Eye Care",
+    "slug": "eye-care",
+    "subcategories": [
+      "Eye hospital",
+      "Ophthalmologist",
+      "LASIK centre",
+      "Optical shop"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad"]
+  },
+  {
+    "industry": "Skin & Hair Clinics",
+    "slug": "skin-hair-clinics",
+    "subcategories": [
+      "Dermatology clinic",
+      "Hair transplant clinic",
+      "Cosmetic skin clinic",
+      "Acne treatment"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Diagnostics & Labs",
+    "slug": "diagnostics-labs",
+    "subcategories": [
+      "Pathology lab",
+      "Blood test centre",
+      "Imaging & radiology",
+      "Home sample collection"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad", "Greater Noida"]
+  },
+  {
+    "industry": "Pharmacies & Chemists",
+    "slug": "pharmacies-chemists",
+    "subcategories": [
+      "24x7 pharmacy",
+      "Online medicine delivery",
+      "Generic medicine store",
+      "Medical shop"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad"]
+  },
+  {
+    "industry": "Ambulance & Emergency",
+    "slug": "ambulance-emergency",
+    "subcategories": [
+      "24x7 ambulance",
+      "ICU ambulance",
+      "Neonatal ambulance",
+      "Patient transport services"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad", "Delhi NCR"]
+  },
+
+  {
+    "industry": "Schools (K-12)",
+    "slug": "schools",
+    "subcategories": [
+      "CBSE school",
+      "ICSE school",
+      "International school",
+      "Pre-school & nursery",
+      "Special needs school"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad", "Greater Noida"]
+  },
+  {
+    "industry": "Colleges & Universities",
+    "slug": "colleges-universities",
+    "subcategories": [
+      "Engineering college",
+      "Medical college",
+      "Management college",
+      "Law college",
+      "Distance learning"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Coaching & Test Prep",
+    "slug": "coaching-centres",
+    "subcategories": [
+      "IIT-JEE coaching",
+      "NEET coaching",
+      "UPSC coaching",
+      "Bank & SSC coaching",
+      "School tuition centre"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad"]
+  },
+  {
+    "industry": "Home Tutors",
+    "slug": "home-tutors",
+    "subcategories": [
+      "School subjects tutor",
+      "Spoken English tutor",
+      "Maths tutor",
+      "Science tutor",
+      "Competitive exams tutor"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Daycare & Play Schools",
+    "slug": "daycare-play-schools",
+    "subcategories": [
+      "Full-day daycare",
+      "Half-day daycare",
+      "After school care",
+      "Infant daycare"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad"]
+  },
+
+  {
+    "industry": "Restaurants",
+    "slug": "restaurants",
+    "subcategories": [
+      "North Indian restaurant",
+      "South Indian restaurant",
+      "Chinese restaurant",
+      "Biryani places",
+      "Fine dining"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad"]
+  },
+  {
+    "industry": "Cafes & Coffee Shops",
+    "slug": "cafes-coffee",
+    "subcategories": [
+      "Cafe",
+      "Coffee shop",
+      "Work-friendly cafe",
+      "Dessert cafe"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Street Food & Fast Food",
+    "slug": "street-food-fast-food",
+    "subcategories": [
+      "Street food",
+      "Burger joints",
+      "Pizza outlets",
+      "Rolls & momos",
+      "Quick service restaurants"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad"]
+  },
+  {
+    "industry": "Bakeries & Sweet Shops",
+    "slug": "bakeries-sweet-shops",
+    "subcategories": [
+      "Bakery",
+      "Cake shop",
+      "Mithai shop",
+      "Chocolates & gifts"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Caterers",
+    "slug": "caterers",
+    "subcategories": [
+      "Wedding catering",
+      "Corporate catering",
+      "Home party catering",
+      "Tiffin services"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad"]
+  },
+
+  {
+    "industry": "Hotels & Resorts",
+    "slug": "hotels-resorts",
+    "subcategories": [
+      "Budget hotel",
+      "Business hotel",
+      "Luxury hotel",
+      "Resort & farmhouse"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "PGs & Hostels",
+    "slug": "pgs-hostels",
+    "subcategories": [
+      "Boys PG",
+      "Girls PG",
+      "Working professionals PG",
+      "Student hostels"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Greater Noida"]
+  },
+  {
+    "industry": "Real Estate Agents",
+    "slug": "real-estate-agents",
+    "subcategories": [
+      "Flat for rent",
+      "Flat for sale",
+      "Commercial property",
+      "Plots & land"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad", "Greater Noida"]
+  },
+  {
+    "industry": "Interior Designers",
+    "slug": "interior-designers",
+    "subcategories": [
+      "Home interiors",
+      "Office interiors",
+      "Modular kitchen",
+      "Renovation services"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Packers & Movers",
+    "slug": "packers-movers",
+    "subcategories": [
+      "Local shifting",
+      "Intercity shifting",
+      "Office shifting",
+      "Storage & warehousing"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad"]
+  },
+
+  {
+    "industry": "Plumbers",
+    "slug": "plumbers",
+    "subcategories": [
+      "Emergency plumber",
+      "Bathroom fittings",
+      "Leak repair",
+      "New construction plumbing"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Electricians",
+    "slug": "electricians",
+    "subcategories": [
+      "Home electrician",
+      "Office wiring",
+      "Appliance wiring",
+      "Emergency electrician"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad"]
+  },
+  {
+    "industry": "Carpenters",
+    "slug": "carpenters",
+    "subcategories": [
+      "Furniture making",
+      "Furniture repair",
+      "Modular furniture",
+      "Custom woodwork"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "AC & Appliance Repair",
+    "slug": "ac-appliance-repair",
+    "subcategories": [
+      "AC repair",
+      "Fridge repair",
+      "Washing machine repair",
+      "RO water purifier repair"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad"]
+  },
+  {
+    "industry": "Painting & Home Renovation",
+    "slug": "painting-renovation",
+    "subcategories": [
+      "House painting",
+      "Office painting",
+      "Waterproofing",
+      "Full home renovation"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+
+  {
+    "industry": "CCTV & Security",
+    "slug": "cctv-security",
+    "subcategories": [
+      "CCTV installation",
+      "Alarm systems",
+      "Access control",
+      "Security guards"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad"]
+  },
+  {
+    "industry": "Pest Control",
+    "slug": "pest-control",
+    "subcategories": [
+      "Termite control",
+      "Cockroach control",
+      "Rodent control",
+      "Bed bug treatment"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad"]
+  },
+  {
+    "industry": "Laundry & Dry Cleaning",
+    "slug": "laundry-dry-cleaning",
+    "subcategories": [
+      "Doorstep laundry",
+      "Dry cleaning",
+      "Saree polishing",
+      "Curtains & carpets"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Car Repair & Service",
+    "slug": "car-repair-service",
+    "subcategories": [
+      "Multi-brand car workshop",
+      "Authorized service centre",
+      "Dent & paint",
+      "Car detailing"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad"]
+  },
+  {
+    "industry": "Bike Repair & Service",
+    "slug": "bike-repair-service",
+    "subcategories": [
+      "Bike workshop",
+      "Puncture repair",
+      "Periodic service",
+      "Bike detailing"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+
+  {
+    "industry": "Beauty Salons",
+    "slug": "beauty-salons",
+    "subcategories": [
+      "Ladies beauty parlour",
+      "Men's salon",
+      "Unisex salon",
+      "Bridal makeup"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad"]
+  },
+  {
+    "industry": "Spas & Wellness",
+    "slug": "spas-wellness",
+    "subcategories": [
+      "Spa",
+      "Ayurvedic spa",
+      "Body massage centre",
+      "Wellness centre"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Gyms & Fitness Centres",
+    "slug": "gyms-fitness",
+    "subcategories": [
+      "Gym",
+      "CrossFit centre",
+      "Personal training",
+      "Weight loss centre"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad", "Greater Noida"]
+  },
+  {
+    "industry": "Yoga & Meditation",
+    "slug": "yoga-meditation",
+    "subcategories": [
+      "Yoga classes",
+      "Meditation centre",
+      "Prenatal yoga",
+      "Online yoga"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Sports Academies",
+    "slug": "sports-academies",
+    "subcategories": [
+      "Cricket academy",
+      "Football academy",
+      "Tennis coaching",
+      "Badminton coaching"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad"]
+  },
+
+  {
+    "industry": "IT Services & Software",
+    "slug": "it-services-software",
+    "subcategories": [
+      "Software development",
+      "Website development",
+      "App development",
+      "IT consulting"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Internet & Broadband",
+    "slug": "internet-broadband",
+    "subcategories": [
+      "Home broadband",
+      "Office leased line",
+      "WiFi providers",
+      "FTTH connection"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad"]
+  },
+  {
+    "industry": "Chartered Accountants & Tax",
+    "slug": "chartered-accountants-tax",
+    "subcategories": [
+      "CA firm",
+      "ITR filing",
+      "GST filing",
+      "Business registration"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Lawyers & Legal Services",
+    "slug": "lawyers-legal",
+    "subcategories": [
+      "Civil lawyer",
+      "Criminal lawyer",
+      "Property lawyer",
+      "Corporate lawyer"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Recruitment & Job Consultants",
+    "slug": "recruitment-job-consultants",
+    "subcategories": [
+      "IT recruitment",
+      "BPO hiring",
+      "Senior executive search",
+      "Temp staffing"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+
+  {
+    "industry": "Event Planners",
+    "slug": "event-planners",
+    "subcategories": [
+      "Wedding planner",
+      "Corporate events",
+      "Birthday planner",
+      "Social events"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Photographers & Videographers",
+    "slug": "photographers-videographers",
+    "subcategories": [
+      "Wedding photographer",
+      "Event photographer",
+      "Product photographer",
+      "Candid photographer"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad"]
+  },
+  {
+    "industry": "Banquet Halls & Venues",
+    "slug": "banquet-halls-venues",
+    "subcategories": [
+      "Banquet hall",
+      "Farmhouse venue",
+      "Conference hall",
+      "Rooftop venue"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram"]
+  },
+  {
+    "industry": "Government Offices & Services",
+    "slug": "government-offices-services",
+    "subcategories": [
+      "Municipal office",
+      "RTO office",
+      "Electricity office",
+      "Water supply office"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad"]
+  },
+  {
+    "industry": "Local Shopping & Markets",
+    "slug": "local-shopping-markets",
+    "subcategories": [
+      "Grocery store",
+      "Supermarket",
+      "Electronics shop",
+      "Hardware store"
+    ],
+    "cities": ["Delhi", "Noida", "Gurugram", "Ghaziabad", "Faridabad", "Greater Noida"]
+  }
+]

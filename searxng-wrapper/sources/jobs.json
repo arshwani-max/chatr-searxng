@@ -1,0 +1,14 @@
+﻿{
+    "category":  "jobs",
+    "sources":  [
+                    "Naukri",
+                    "LinkedIn Jobs",
+                    "Indeed India",
+                    "Monster India",
+                    "FreshersWorld",
+                    "Hirist",
+                    "Foundit",
+                    "Glassdoor India"
+                ],
+    "count":  8
+}

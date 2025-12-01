@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chatr+ Search</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,"Inter",sans-serif; background:#f9fafb; }
+    .topbar { background:#6C2BD9; color:white; padding:16px 20px; display:flex; align-items:center; justify-content:space-between; }
+    .topbar-left { font-weight:700; font-size:20px; display:flex; align-items:center; gap:8px; }
+    .pill { background:rgba(255,255,255,0.15); padding:6px 12px; border-radius:999px; font-size:12px; }
+    .topbar-right { display:flex; gap:8px; }
+    .container { padding:20px; }
+    .search-row { margin-top:18px; display:flex; align-items:center; gap:12px; }
+    .search-input { flex:1; padding:14px 18px; border-radius:999px; border:1px solid #e5e7eb; font-size:16px; outline:none; }
+    .search-btn { width:48px; height:48px; border-radius:999px; border:none; background:#7C3AED; color:white; font-size:18px; cursor:pointer; }
+    .chips { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; margin-top:26px; }
+    .chip { border-radius:999px; padding:14px 10px; text-align:center; font-size:13px; font-weight:600; color:#111827; }
+    .chip.chat { background:#D1FAE5; }
+    .chip.ai { background:#EDE9FE; }
+    .chip.world { background:#FFE4D5; }
+    .chip.jobs { background:#DCFCE7; }
+    .chip.healthcare { background:#FFE4E6; }
+    .chip.browser { background:#E0E7FF; }
+    .chip.healthhub { background:#ECFDF3; }
+    .chip.care { background:#E0F2FE; }
+    .chip.community { background:#FFF7ED; }
+    .chip.app { background:#F3E8FF; }
+    .chip.official { background:#DCFCE7; }
+    .chip.business { background:#E5E7EB; }
+    .section-title { margin-top:28px; font-weight:700; font-size:18px; color:#065F46; }
+    .ecosystem { display:flex; gap:16px; margin-top:14px; flex-wrap:wrap; }
+    .eco-card { flex:1 1 0; min-width:120px; padding:22px 16px; border-radius:22px; color:white; font-weight:600; text-align:center; }
+    .eco-food { background:#FB923C; }
+    .eco-deals { background:#22C55E; }
+    .eco-premium { background:#D946EF; }
+    .results-wrap { margin-top:24px; height: calc(100vh - 360px); }
+    .results-frame { width:100%; height:100%; border:none; border-radius:18px; box-shadow:0 10px 30px rgba(15,23,42,0.12); }
+    @media (max-width: 768px){
+      .chips { grid-template-columns:repeat(2,minmax(0,1fr)); }
+      .results-wrap { height: calc(100vh - 420px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-left">
+      <span>Chatr+</span>
+      <span class="pill">AI Superapp for India</span>
+    </div>
+    <div class="topbar-right">
+      <span class="pill">588 ?</span>
+      <span class="pill">Share &amp; Earn</span>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="search-row">
+      <input id="searchBox" class="search-input"
+             placeholder="Find plumber, order biryani, dentist near me..." />
+      <button class="search-btn" onclick="runSearch()">??</button>
+    </div>
+
+    <div class="chips">
+      <div class="chip chat">Chat</div>
+      <div class="chip ai">AI Agents</div>
+      <div class="chip world">Chatr World</div>
+      <div class="chip jobs">Local Jobs</div>
+      <div class="chip healthcare">Healthcare</div>
+      <div class="chip browser">Chatr Browser</div>
+      <div class="chip healthhub">Health Hub</div>
+      <div class="chip care">Care Access</div>
+      <div class="chip community">Community</div>
+      <div class="chip app">Chatr App</div>
+      <div class="chip official">Official</div>
+      <div class="chip business">Business</div>
+    </div>
+
+    <div class="section-title">Ecosystem</div>
+    <div class="ecosystem">
+      <div class="eco-card eco-food">Food Ordering</div>
+      <div class="eco-card eco-deals">Local Deals</div>
+      <div class="eco-card eco-premium">Chatr Premium</div>
+    </div>
+
+    <div class="results-wrap">
+      <iframe id="resultsFrame" class="results-frame"
+              src="http://localhost:8080/"></iframe>
+    </div>
+  </div>
+
+  <script>
+    function runSearch() {
+      const box = document.getElementById('searchBox');
+      const q = box.value.trim();
+      const frame = document.getElementById('resultsFrame');
+      if (!q) return;
+      // Directly load SearXNG results inside the iframe
+      frame.src = "http://localhost:8080/search?q=" + encodeURIComponent(q);
+    }
+  </script>
+<script>
+navigator.geolocation.getCurrentPosition(function(pos) {
+    const lat = pos.coords.latitude;
+    const lon = pos.coords.longitude;
+
+    document.getElementById('searchBtn').onclick = function() {
+        const q = document.getElementById('searchInput').value;
+        const finalQuery = q + " near " + lat + "," + lon;
+        window.location.href = "http://localhost:8080/search?q=" + encodeURIComponent(finalQuery);
+    }
+});
+</script>
+<script>
+let userLat = null;
+let userLon = null;
+
+// Get GPS from browser
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      userLat = pos.coords.latitude;
+      userLon = pos.coords.longitude;
+      console.log("CHATR GPS:", userLat, userLon);
+    },
+    (err) => {
+      console.warn("CHATR geolocation error:", err);
+    }
+  );
+}
+
+// Build URL and send to SearXNG
+function chatrSearch() {
+  // Try to find your big search bar input
+  const input =
+    document.querySelector('input[placeholder^="Find plumber"]') ||
+    document.querySelector('input[type="search"]') ||
+    document.querySelector('input[type="text"]');
+
+  if (!input) {
+    console.warn("CHATR: search input not found");
+    return;
+  }
+
+  let q = input.value.trim();
+  if (!q) return;
+
+  // If GPS available, append it + India hint
+  if (userLat !== null && userLon !== null) {
+    q = q + " near " +
+        userLat.toFixed(4) + "," +
+        userLon.toFixed(4) +
+        " Noida India";
+  }
+
+  window.location.href =
+    "http://localhost:8080/search?q=" + encodeURIComponent(q);
+}
+
+// Hook Enter key on the search bar
+document.addEventListener("DOMContentLoaded", () => {
+  const input =
+    document.querySelector('input[placeholder^="Find plumber"]') ||
+    document.querySelector('input[type="search"]') ||
+    document.querySelector('input[type="text"]');
+
+  if (!input) return;
+
+  input.addEventListener("keyup", (e) => {
+    if (e.key === "Enter") {
+      chatrSearch();
+    }
+  });
+});
+</script>
+</body>
+</html>
+

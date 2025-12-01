@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Chatr v10 – AI Superapp for India</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+        body { background: #f5f5fb; color: #111827; }
+
+        .topbar {
+            background: #6d28d9;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .topbar-left { font-weight: 700; font-size: 20px; }
+        .topbar-right { font-size: 12px; opacity: 0.9; }
+
+        .wrapper { max-width: 1200px; margin: 20px auto 40px auto; padding: 0 16px; }
+
+        .search-card {
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 20px;
+            box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+        }
+
+        .search-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .search-input {
+            flex: 1;
+            height: 46px;
+            border-radius: 999px;
+            border: 1px solid #e5e7eb;
+            padding: 0 16px;
+            font-size: 14px;
+            outline: none;
+        }
+        .search-input:focus {
+            border-color: #6d28d9;
+            box-shadow: 0 0 0 1px rgba(109, 40, 217, 0.3);
+        }
+
+        .search-btn, .gps-btn, .pill, .plan-btn {
+            border: none;
+            cursor: pointer;
+            transition: transform 0.08s ease, box-shadow 0.08s ease, background 0.15s ease, color 0.15s ease;
+        }
+        .search-btn {
+            padding: 10px 18px;
+            border-radius: 999px;
+            background: #6d28d9;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .gps-btn {
+            padding: 10px 14px;
+            border-radius: 999px;
+            background: #eef2ff;
+            color: #4b5563;
+            font-size: 13px;
+            white-space: nowrap;
+        }
+        .search-btn:hover, .gps-btn:hover, .pill:hover, .plan-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(15, 23, 42, 0.12);
+        }
+
+        .gps-status { margin-top: 8px; font-size: 12px; color: #6b7280; }
+
+        .grid {
+            margin-top: 16px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 10px;
+        }
+
+        .pill {
+            border-radius: 999px;
+            padding: 8px 16px;
+            font-size: 13px;
+            font-weight: 500;
+            text-align: center;
+        }
+
+        .pill-chat    { background: #ecfeff; color: #155e75; }
+        .pill-agents  { background: #eff6ff; color: #1d4ed8; }
+        .pill-world   { background: #fef9c3; color: #854d0e; }
+        .pill-jobs    { background: #ecfdf5; color: #166534; }
+        .pill-health  { background: #f0f9ff; color: #0369a1; }
+        .pill-biz     { background: #fef2f2; color: #b91c1c; }
+
+        .ecosystem {
+            margin-top: 22px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+        }
+        .eco-btn {
+            height: 52px;
+            border-radius: 999px;
+            border: none;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            color: #fff;
+        }
+        .eco-food    { background: #fb923c; }
+        .eco-deals   { background: #22c55e; }
+        .eco-premium { background: #a855f7; }
+
+        .layout {
+            margin-top: 24px;
+            display: grid;
+            grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr);
+            gap: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 18px;
+            box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+        }
+        .card-title {
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .card-sub {
+            font-size: 12px;
+            color: #6b7280;
+            margin-bottom: 12px;
+        }
+
+        .plan {
+            border-radius: 14px;
+            padding: 10px 12px;
+            border: 1px solid #e5e7eb;
+            margin-bottom: 10px;
+        }
+        .plan-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 13px;
+            margin-bottom: 4px;
+        }
+        .plan-price {
+            font-weight: 700;
+        }
+        .plan-desc {
+            font-size: 11px;
+            color: #6b7280;
+        }
+        .plan-btn {
+            margin-top: 6px;
+            width: 100%;
+            border-radius: 999px;
+            padding: 6px 10px;
+            font-size: 12px;
+            font-weight: 600;
+            background: #4c1d95;
+            color: #fff;
+        }
+
+        .results-hint {
+            font-size: 12px;
+            color: #6b7280;
+            margin-top: 6px;
+        }
+
+        @media (max-width: 900px) {
+            .layout { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <div class="topbar-left">Chatr v10</div>
+        <div class="topbar-right">AI Superapp for India · Local + Jobs + Food</div>
+    </div>
+
+    <div class="wrapper">
+        <div class="search-card">
+            <div class="search-row">
+                <input id="searchInput" class="search-input" placeholder="Find plumber, order biryani, dentist near me..." />
+                <button id="gpsBtn" class="gps-btn" title="Use GPS">📍 Use GPS</button>
+                <button id="searchBtn" class="search-btn">Search</button>
+            </div>
+            <div id="gpsStatus" class="gps-status">Tip: Try “biryani near me” or “dentist in Noida Sector 62”.</div>
+
+            <div class="grid" style="margin-top:16px;">
+                <button class="pill pill-chat">Chat</button>
+                <button class="pill pill-agents">AI Agents</button>
+                <button class="pill pill-world">Chatr World</button>
+                <button class="pill pill-jobs">Local Jobs</button>
+                <button class="pill pill-health">Health Hub</button>
+                <button class="pill pill-biz">Business</button>
+            </div>
+
+            <div class="ecosystem">
+                <button class="eco-btn eco-food">Food Ordering</button>
+                <button class="eco-btn eco-deals">Local Deals</button>
+                <button id="premiumBtn" class="eco-btn eco-premium">Chatr Premium</button>
+            </div>
+        </div>
+
+        <div class="layout">
+            <div class="card">
+                <div class="card-title">Search results</div>
+                <div class="card-sub">Your query will open in the SearXNG tab (localhost:8080).</div>
+                <div class="results-hint">
+                    Chatr uses privacy-friendly meta search with India-optimized engines (Google_IN, Bing_IN, DuckDuckGo, JustDial, Zomato, Swiggy).
+                    <br />For very local queries we attach your GPS coordinates automatically.
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-title">Chatr Seller Premium</div>
+                <div class="card-sub">Boost your shop, clinic, tiffin service or startup inside Chatr’s local graph.</div>
+
+                <div class="plan">
+                    <div class="plan-header">
+                        <span>Monthly Seller</span>
+                        <span class="plan-price">₹199 / month</span>
+                    </div>
+                    <div class="plan-desc">
+                        • Appear on top in local results<br/>
+                        • Basic analytics & clicks<br/>
+                        • Ideal for testing Chatr reach
+                    </div>
+                    <button class="plan-btn" onclick="showPlan('Monthly Seller', '₹199 / month')">Get Monthly Plan</button>
+                </div>
+
+                <div class="plan">
+                    <div class="plan-header">
+                        <span>Yearly Seller</span>
+                        <span class="plan-price">₹1,999 / year</span>
+                    </div>
+                    <div class="plan-desc">
+                        • 12 months for the price of 10<br/>
+                        • Priority support & beta features<br/>
+                        • Recommended for serious businesses
+                    </div>
+                    <button class="plan-btn" onclick="showPlan('Yearly Seller', '₹1,999 / year')">Get Yearly Plan</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const searxBase = "http://localhost:8080";
+        const inputEl   = document.getElementById("searchInput");
+        const searchBtn = document.getElementById("searchBtn");
+        const gpsBtn    = document.getElementById("gpsBtn");
+        const gpsStatus = document.getElementById("gpsStatus");
+        const premiumBtn = document.getElementById("premiumBtn");
+
+        function openSearch(query) {
+            if (!query) return;
+            const url = searxBase + "/search?q=" + encodeURIComponent(query);
+            window.location.href = url;
+        }
+
+        function showError(msg) {
+            gpsStatus.textContent = msg;
+        }
+
+        function showPlan(name, price) {
+            alert(
+                name + " – " + price +
+                "\n\nThis is a demo UI only.\nIntegrate Razorpay / Stripe / UPI in backend to activate real billing."
+            );
+        }
+
+        async function getCity(lat, lon) {
+            try {
+                const url = `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${lat}&lon=${lon}`;
+                const r = await fetch(url, { headers: { "Accept-Language": "en-IN" } });
+                const d = await r.json();
+                const a = d.address || {};
+                return a.city || a.town || a.village || a.suburb || a.state || "";
+            } catch (e) {
+                return "";
+            }
+        }
+
+        async function searchWithLocation() {
+            const baseQuery = (inputEl.value || "").trim();
+            if (!baseQuery) {
+                alert("Type something to search.");
+                return;
+            }
+
+            if (!navigator.geolocation) {
+                openSearch(baseQuery);
+                return;
+            }
+
+            gpsStatus.textContent = "Getting your GPS location…";
+
+            navigator.geolocation.getCurrentPosition(async (pos) => {
+                try {
+                    const lat = pos.coords.latitude.toFixed(4);
+                    const lon = pos.coords.longitude.toFixed(4);
+                    let city = await getCity(lat, lon);
+                    let finalQuery;
+
+                    if (city) {
+                        gpsStatus.textContent = `Searching around ${city} (${lat}, ${lon})…`;
+                        finalQuery = `${baseQuery} near ${city}`;
+                    } else {
+                        gpsStatus.textContent = `Searching near ${lat}, ${lon}…`;
+                        finalQuery = `${baseQuery} near ${lat},${lon}`;
+                    }
+
+                    openSearch(finalQuery);
+                } catch (e) {
+                    showError("Could not use GPS, running plain search.");
+                    openSearch(baseQuery);
+                }
+            }, (err) => {
+                showError("Permission denied for GPS – running plain search.");
+                openSearch(baseQuery);
+            }, { enableHighAccuracy: false, timeout: 8000, maximumAge: 60000 });
+        }
+
+        function simpleSearch() {
+            const q = (inputEl.value || "").trim();
+            if (!q) {
+                alert("Type something to search.");
+                return;
+            }
+            openSearch(q);
+        }
+
+        searchBtn.addEventListener("click", searchWithLocation);
+        gpsBtn.addEventListener("click", searchWithLocation);
+        premiumBtn.addEventListener("click", () => {
+            alert("Chatr Seller Premium\n\nMonthly: ₹199\nYearly: ₹1,999\n\nBackend billing integration is your next step (Razorpay/Stripe/UPI).");
+        });
+
+        inputEl.addEventListener("keydown", (e) => {
+            if (e.key === "Enter") {
+                searchWithLocation();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+services:
+  searxng:
+    build:
+      context: .
+      dockerfile: Dockerfile.custom # Re-enables your custom Dockerfile
+    image: searxng_v11-searxng:latest
+    container_name: searxng
+    restart: unless-stopped
+
+    dns:
+      - 8.8.8.8
+
+    ports:
+      - "9090:8080"
+
+    environment:
+      - SEARXNG_SERVER_LIMITER=false
+      - SEARXNG_SERVER_PUBLIC_INSTANCE=false
+      - SEARXNG_SETTINGS=/etc/searxng/user.yml # Points to the mounted settings file
+
+    volumes:
+      - ./user.yml:/etc/searxng/user.yml:ro # Mounts the new settings file
+      - ./chatr_hybrid.py:/usr/local/searxng/searx/engines/chatr_hybrid.py:ro # Mounts the custom engine

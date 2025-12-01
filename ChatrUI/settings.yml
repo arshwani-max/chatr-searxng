@@ -1,0 +1,22 @@
+server:
+  secret_key: 2f901277-69be-4ce4-8d62-34f59ea0aeff
+
+engines:
+  - name: duckduckgo
+    engine: duckduckgo
+    shortcut: ddg
+
+  - name: bing
+    engine: bing
+    shortcut: bi
+
+  - name: google
+    engine: google
+    shortcut: go
+
+  - name: chatr_hybrid
+    engine: chatr_hybrid
+    shortcut: ch
+
+outgoing:
+  request_timeout: 4.0

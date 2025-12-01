@@ -1,0 +1,13 @@
+﻿{
+    "category":  "real_estate",
+    "sources":  [
+                    "NoBroker",
+                    "MagicBricks",
+                    "99acres",
+                    "Housing.com",
+                    "Makaan",
+                    "SquareYards",
+                    "CommonFloor"
+                ],
+    "count":  7
+}

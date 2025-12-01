@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>CHATR Search</title>
+<style>
+body { font-family: Arial; padding:20px; background:#f4f4f4; }
+.card { background:white; margin-bottom:15px; padding:15px; border-radius:10px; box-shadow:0 2px 4px rgba(0,0,0,0.1); }
+.title { font-size:20px; font-weight:bold; }
+.url { font-size:12px; color:gray; }
+</style>
+</head>
+<body>
+<h1>🔍 CHATR Search Results</h1>
+{% for r in results %}
+<div class="card">
+<div class="title">{{ r.title }}</div>
+<div class="url">{{ r.url }}</div>
+<p>{{ r.content }}</p>
+</div>
+{% endfor %}
+</body>
+</html>

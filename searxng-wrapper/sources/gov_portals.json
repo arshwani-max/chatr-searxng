@@ -1,0 +1,14 @@
+﻿{
+    "category":  "gov_portals",
+    "sources":  [
+                    "India.gov.in",
+                    "UIDAI",
+                    "DigiLocker",
+                    "UMANG",
+                    "Transport Parivahan",
+                    "Income Tax Portal",
+                    "NPCI",
+                    "eSewa"
+                ],
+    "count":  8
+}

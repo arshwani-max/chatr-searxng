@@ -1,0 +1,17 @@
+﻿{
+    "category":  "ecommerce",
+    "sources":  [
+                    "Amazon India",
+                    "Flipkart",
+                    "Meesho",
+                    "Snapdeal",
+                    "TataCliq",
+                    "Nykaa",
+                    "AJIO",
+                    "Myntra",
+                    "ShopClues",
+                    "BigBasket",
+                    "Blinkit"
+                ],
+    "count":  11
+}

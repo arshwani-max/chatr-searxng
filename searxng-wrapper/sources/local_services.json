@@ -1,0 +1,14 @@
+﻿{
+    "category":  "local_services",
+    "sources":  [
+                    "JustDial",
+                    "IndiaMART",
+                    "UrbanCompany",
+                    "Sulekha",
+                    "NearMeTrade",
+                    "Grotal",
+                    "YellowPages.in",
+                    "AskLaila"
+                ],
+    "count":  8
+}

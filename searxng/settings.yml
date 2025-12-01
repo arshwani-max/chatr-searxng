@@ -1,0 +1,30 @@
+﻿general:
+  debug: false
+  instance_name: "Chatr Search"
+  enable_metrics: false
+
+server:
+  port: 8080
+  bind_address: "0.0.0.0"
+
+search:
+  default_lang: "en"
+  safe_search: 0
+  autocomplete: "google"
+
+ui:
+  theme: simple
+  query_in_title: true
+
+engines:
+  - name: google
+    engine: google
+    disabled: false
+
+  - name: duckduckgo
+    engine: duckduckgo
+    disabled: false
+
+  - name: bing
+    engine: bing
+    disabled: true

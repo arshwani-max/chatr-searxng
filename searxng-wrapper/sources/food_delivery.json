@@ -1,0 +1,14 @@
+﻿{
+    "category":  "food_delivery",
+    "sources":  [
+                    "Zomato",
+                    "Swiggy",
+                    "Dominos",
+                    "PizzaHut",
+                    "McDonalds",
+                    "BurgerKing",
+                    "EatSure",
+                    "FreshMenu"
+                ],
+    "count":  8
+}

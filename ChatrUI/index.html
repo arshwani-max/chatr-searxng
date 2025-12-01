@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CHATR Local Â· Find Anything Near You</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="chatr-body">
+<header class="chatr-header">
+  <div class="chatr-logo-area">
+    <div class="chatr-logo">CHATR<span>Local</span></div>
+    <div class="chatr-location-pill" id="location-pill">
+      Detecting locationâ€¦
+    </div>
+  </div>
+  <div class="chatr-search-bar">
+    <input id="main-search-input" type="text" placeholder="Search: salons, doctors, biryani, gymsâ€¦" />
+    <button id="main-search-btn">Search</button>
+  </div>
+  <div class="chatr-category-strip" id="home-category-strip">
+    <button data-category="food">Food</button>
+    <button data-category="salon">Salons</button>
+    <button data-category="doctor">Doctors</button>
+    <button data-category="services">Services</button>
+    <button data-category="shops">Shops</button>
+    <button data-category="travel">Travel</button>
+    <button data-category="other">More</button>
+  </div>
+</header>
+
+<main class="chatr-main">
+  <section class="chatr-map-section">
+    <canvas id="map-canvas"></canvas>
+    <div class="map-overlay">
+      <div class="map-title">Live Nearby Map</div>
+      <div class="map-sub">Pins show results around you</div>
+    </div>
+  </section>
+
+  <section class="chatr-results">
+    <div class="chatr-results-header">
+      <h2 id="results-title">Popular near you</h2>
+      <span id="results-count" class="results-count"></span>
+    </div>
+    <div id="results-grid" class="chatr-card-grid">
+      <!-- cards injected by JS -->
+    </div>
+  </section>
+</main>
+
+<footer class="chatr-footer">
+  <div>CHATR Local Â· Ultra Search for your city</div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  // Home page boot
+  document.addEventListener("DOMContentLoaded", function () {
+    window.chatrLocal.initPage("home");
+  });
+</script>
+</body>
+</html>

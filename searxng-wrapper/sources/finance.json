@@ -1,0 +1,15 @@
+﻿{
+    "category":  "finance",
+    "sources":  [
+                    "Paytm",
+                    "PhonePe",
+                    "Google Pay",
+                    "BHIM UPI",
+                    "SBI",
+                    "HDFC Bank",
+                    "ICICI Bank",
+                    "Axis Bank",
+                    "Kotak Bank"
+                ],
+    "count":  9
+}

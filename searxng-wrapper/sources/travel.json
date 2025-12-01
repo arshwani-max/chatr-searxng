@@ -1,0 +1,16 @@
+﻿{
+    "category":  "travel",
+    "sources":  [
+                    "IRCTC",
+                    "MakeMyTrip",
+                    "Goibibo",
+                    "RedBus",
+                    "AbhiBus",
+                    "Yatra",
+                    "ClearTrip",
+                    "Ola",
+                    "Uber",
+                    "Rapido"
+                ],
+    "count":  10
+}

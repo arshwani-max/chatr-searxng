@@ -1,0 +1,49 @@
+﻿{
+    "version":  "1.0",
+    "logic":  {
+                  "determine_intent":  "LLM classification",
+                  "engine_map":  {
+                                     "Education":  [
+                                                       "google",
+                                                       "wiki",
+                                                       "youtube"
+                                                   ],
+                                     "Jobs":  [
+                                                  "indeed",
+                                                  "naukri",
+                                                  "linkedin"
+                                              ],
+                                     "Home Services":  [
+                                                           "chatr_hybrid",
+                                                           "local_db",
+                                                           "google_maps"
+                                                       ],
+                                     "Retail":  [
+                                                    "amazon",
+                                                    "flipkart",
+                                                    "brave",
+                                                    "shoppingdb"
+                                                ],
+                                     "Food":  [
+                                                  "zomato",
+                                                  "swiggy",
+                                                  "google_maps"
+                                              ],
+                                     "Healthcare":  [
+                                                        "brave",
+                                                        "startpage",
+                                                        "google_maps"
+                                                    ]
+                                 },
+                  "fallback":  "LLM Answer + web citations",
+                  "gps_required":  [
+                                       "restaurants",
+                                       "plumber",
+                                       "electrician",
+                                       "pharmacy",
+                                       "tiffin service",
+                                       "pg",
+                                       "hostel"
+                                   ]
+              }
+}

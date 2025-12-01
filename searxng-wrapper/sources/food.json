@@ -1,0 +1,27 @@
+﻿{
+    "category":  "food",
+    "count":  20,
+    "sources":  [
+                    "Behrouz Biryani",
+                    "BOX8",
+                    "Burger King India",
+                    "CakeZone",
+                    "CCD Delivery",
+                    "Chaayos",
+                    "Domino\u0027s Pizza",
+                    "Dunzo Food",
+                    "EatFit",
+                    "Eatsure",
+                    "Faasos",
+                    "FreshMenu",
+                    "KFC India",
+                    "McDelivery",
+                    "Mojo Pizza",
+                    "Pizza Hut",
+                    "SweetTruth",
+                    "Swiggy",
+                    "WarmOven",
+                    "Zomato"
+                ],
+    "updated_at":  "2025-11-28 20:07:27Z"
+}

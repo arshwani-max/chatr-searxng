@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CHATR Local Â· Category</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="chatr-body">
+<header class="chatr-header">
+  <div class="chatr-logo-area">
+    <div class="chatr-logo">CHATR<span>Local</span></div>
+    <div class="chatr-location-pill" id="location-pill">
+      Detecting locationâ€¦
+    </div>
+  </div>
+  <div class="chatr-search-bar">
+    <input id="category-search-input" type="text" placeholder="Refine: e.g. 'hair cut', 'dentist'â€¦" />
+    <button id="category-search-btn">Search</button>
+  </div>
+  <div class="chatr-category-strip" id="category-strip">
+    <button data-category="food">Food</button>
+    <button data-category="salon">Salons</button>
+    <button data-category="doctor">Doctors</button>
+    <button data-category="services">Services</button>
+    <button data-category="shops">Shops</button>
+    <button data-category="travel">Travel</button>
+    <button data-category="other">More</button>
+  </div>
+</header>
+
+<main class="chatr-main">
+  <section class="chatr-map-section">
+    <canvas id="map-canvas"></canvas>
+    <div class="map-overlay">
+      <div class="map-title" id="map-category-title">Category Map</div>
+      <div class="map-sub">You are here Â· Pins are results</div>
+    </div>
+  </section>
+
+  <section class="chatr-results">
+    <div class="chatr-results-header">
+      <h2 id="results-title">Category results</h2>
+      <span id="results-count" class="results-count"></span>
+    </div>
+    <div id="results-grid" class="chatr-card-grid">
+      <!-- cards injected by JS -->
+    </div>
+  </section>
+</main>
+
+<footer class="chatr-footer">
+  <a href="index.html">â† Back to Home</a>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    window.chatrLocal.initPage("category");
+  });
+</script>
+</body>
+</html>

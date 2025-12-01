@@ -1,0 +1,3 @@
+FROM searxng/searxng:dev
+
+RUN python3 -m pip install --no-cache-dir sniffio httpx_socks anyio

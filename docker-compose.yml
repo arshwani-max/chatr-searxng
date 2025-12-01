@@ -1,0 +1,14 @@
+services:
+  searxng:
+    image: searxng_v11-searxng:patched2
+    container_name: searxng
+    ports:
+      - "8080:8080"
+    environment:
+      - SEARXNG_SETTINGS_PATH=/opt/searxng/settings.yml
+    volumes:
+      - ./settings.yml:/opt/searxng/settings.yml:ro
+      - ./chatr_hybrid.py:/usr/local/searxng/searx/engines/chatr_hybrid.py:ro
+      - ./limiter.toml:/opt/searxng/limiter.toml:ro
+    restart: unless-stopped
+    dns: 8.8.8.8

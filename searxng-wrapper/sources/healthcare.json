@@ -1,0 +1,13 @@
+﻿{
+    "category":  "healthcare",
+    "sources":  [
+                    "Practo",
+                    "1mg",
+                    "NetMeds",
+                    "Apollo 24x7",
+                    "PharmEasy",
+                    "MedPlus",
+                    "Cure.fit"
+                ],
+    "count":  7
+}

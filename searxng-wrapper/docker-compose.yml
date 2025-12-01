@@ -1,0 +1,36 @@
+﻿services:
+
+  searxng:
+    build:
+      context: ..
+      dockerfile: Dockerfile.custom
+    image: searxng_v11-searxng:latest
+    container_name: searxng
+    ports:
+      - "8080:8080"
+    environment:
+      SEARXNG_SERVER_PUBLIC_INSTANCE: "false"
+      SEARXNG_SERVER_LIMITER: "false"
+      SEARXNG_BOTDETECTION_IP_LIMIT_FILTER_LINK_LOCAL: "false"
+      SEARXNG_SERVER_SECRET_KEY: "test123"
+    volumes:
+      - ./chatr_hybrid.py:/usr/local/searxng/searx/engines/chatr_hybrid.py:ro
+    restart: unless-stopped
+
+  wrapper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: searxng-wrapper:latest
+    container_name: searxng_wrapper
+    ports:
+      - "5000:8000"
+    environment:
+      DB_HOST: "replace-with-supabase-host"
+      DB_USER: "postgres"
+      DB_PASSWORD: "replace-with-password"
+      DB_NAME: "postgres"
+      BACKEND_URL: "http://searxng:8080"
+    depends_on:
+      - searxng
+    restart: unless-stopped
