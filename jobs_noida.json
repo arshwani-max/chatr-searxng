@@ -1,0 +1,322 @@
+﻿[
+    {
+        "role":  "Field Sales",
+        "company":  "Deloitte",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 41, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Marketing Coordinator",
+        "company":  "Infosys",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 38, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Operations Manager",
+        "company":  "Adobe",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 35, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Data Analyst",
+        "company":  "Accenture",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 45, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "UI/UX Designer",
+        "company":  "TCS",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 110, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Sales Executive",
+        "company":  "Adobe",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 25, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Operations Manager",
+        "company":  "Adobe",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 45, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "Marketing Coordinator",
+        "company":  "Accenture",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 100, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "Field Sales",
+        "company":  "Adobe",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 63, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "HR Assistant",
+        "company":  "Deloitte",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 100, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "Marketing Coordinator",
+        "company":  "BYJU’S",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 38, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Marketing Coordinator",
+        "company":  "Paytm",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 135, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "UI/UX Designer",
+        "company":  "Zomato",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 38, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "HR Assistant",
+        "company":  "HCL",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 75, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "HR Assistant",
+        "company":  "HCL",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 128, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "HR Assistant",
+        "company":  "Deloitte",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 100, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "Operations Manager",
+        "company":  "Infosys",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 104, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "Marketing Coordinator",
+        "company":  "HCL",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 100, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "HR Assistant",
+        "company":  "HCL",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 50, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "Marketing Coordinator",
+        "company":  "HCL",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 110, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Software Engineer",
+        "company":  "Paytm",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 110, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Operations Manager",
+        "company":  "Accenture",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 45, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "Data Analyst",
+        "company":  "Accenture",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 107, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Sales Executive",
+        "company":  "Accenture",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 75, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "Operations Manager",
+        "company":  "Deloitte",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 100, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Field Sales",
+        "company":  "HCL",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 110, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Field Sales",
+        "company":  "Infosys",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 135, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Field Sales",
+        "company":  "HCL",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 135, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "Operations Manager",
+        "company":  "TCS",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 38, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Sales Executive",
+        "company":  "Infosys",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 110, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "Field Sales",
+        "company":  "Adobe",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 62, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Data Analyst",
+        "company":  "Deloitte",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 25, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "UI/UX Designer",
+        "company":  "Deloitte",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 104, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "HR Assistant",
+        "company":  "Paytm",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 38, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "Software Engineer",
+        "company":  "BYJU’S",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 35, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "Data Analyst",
+        "company":  "HCL",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 32, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "HR Assistant",
+        "company":  "TCS",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 18, Noida",
+        "remote":  false
+    },
+    {
+        "role":  "Data Analyst",
+        "company":  "Paytm",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 75, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Sales Executive",
+        "company":  "Deloitte",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 104, Noida",
+        "remote":  true
+    },
+    {
+        "role":  "Field Sales",
+        "company":  "Infosys",
+        "salary":  "₹/month",
+        "experience":  " years",
+        "location":  "Sector 62, Noida",
+        "remote":  true
+    }
+]

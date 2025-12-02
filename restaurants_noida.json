@@ -1,0 +1,1754 @@
+﻿[
+    {
+        "name":  "Biryani Blues",
+        "category":  "South Indian",
+        "subcategory":  "Casual Dining",
+        "rating":  3.6,
+        "reviews":  3030,
+        "delivery_time":  "46 mins",
+        "pricing":  {
+                        "average":  "₹360",
+                        "meal_for_one":  "₹360",
+                        "min":  "₹247",
+                        "delivery_fee":  "₹31",
+                        "max":  "₹474",
+                        "meal_for_two":  "₹720"
+                    },
+        "lat":  28.526261,
+        "lon":  77.378195,
+        "sector":  "Sector 107",
+        "pincode":  "201376",
+        "tags":  [
+                     "Healthy",
+                     "Pizza"
+                 ],
+        "description":  "Biryani Blues is a popular South Indian restaurant in Sector 107, Noida. Known for Healthy, Pizza. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Sardar Ji Ka Dhaba",
+        "category":  "North Indian",
+        "subcategory":  "Casual Dining",
+        "rating":  4.7,
+        "reviews":  4760,
+        "delivery_time":  "22 mins",
+        "pricing":  {
+                        "average":  "₹292",
+                        "meal_for_one":  "₹292",
+                        "min":  "₹242",
+                        "delivery_fee":  "₹43",
+                        "max":  "₹342",
+                        "meal_for_two":  "₹584"
+                    },
+        "lat":  28.522817,
+        "lon":  77.408182000000011,
+        "sector":  "Sector 110",
+        "pincode":  "201376",
+        "tags":  [
+                     "Rolls",
+                     "Biryani",
+                     "Desserts",
+                     "Chinese"
+                 ],
+        "description":  "Sardar Ji Ka Dhaba is a popular North Indian restaurant in Sector 110, Noida. Known for Rolls, Biryani, Desserts, Chinese. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Tandoori Junction",
+        "category":  "Cafe",
+        "subcategory":  "Premium Dining",
+        "rating":  4.5,
+        "reviews":  4268,
+        "delivery_time":  "20 mins",
+        "pricing":  {
+                        "average":  "₹402",
+                        "meal_for_one":  "₹402",
+                        "min":  "₹200",
+                        "delivery_fee":  "₹35",
+                        "max":  "₹604",
+                        "meal_for_two":  "₹804"
+                    },
+        "lat":  28.561475,
+        "lon":  77.379820000000009,
+        "sector":  "Sector 62",
+        "pincode":  "201348",
+        "tags":  [
+                     "Healthy",
+                     "Biryani",
+                     "Pasta"
+                 ],
+        "description":  "Tandoori Junction is a popular Cafe restaurant in Sector 62, Noida. Known for Healthy, Biryani, Pasta. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Ghar Ka Khana",
+        "category":  "BBQ",
+        "subcategory":  "Fast Food",
+        "rating":  5,
+        "reviews":  3129,
+        "delivery_time":  "32 mins",
+        "pricing":  {
+                        "average":  "₹416",
+                        "meal_for_one":  "₹416",
+                        "min":  "₹141",
+                        "delivery_fee":  "₹48",
+                        "max":  "₹692",
+                        "meal_for_two":  "₹832"
+                    },
+        "lat":  28.510055,
+        "lon":  77.3614,
+        "sector":  "Sector 38",
+        "pincode":  "201328",
+        "tags":  [
+                     "Coffee",
+                     "Veg",
+                     "Desserts"
+                 ],
+        "description":  "Ghar Ka Khana is a popular BBQ restaurant in Sector 38, Noida. Known for Coffee, Veg, Desserts. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "The Yellow Chilli",
+        "category":  "Bakery",
+        "subcategory":  "Takeaway",
+        "rating":  4.7,
+        "reviews":  4974,
+        "delivery_time":  "23 mins",
+        "pricing":  {
+                        "average":  "₹487",
+                        "meal_for_one":  "₹487",
+                        "min":  "₹220",
+                        "delivery_fee":  "₹8",
+                        "max":  "₹754",
+                        "meal_for_two":  "₹974"
+                    },
+        "lat":  28.516906,
+        "lon":  77.369028,
+        "sector":  "Sector 72",
+        "pincode":  "201374",
+        "tags":  [
+                     "Veg",
+                     "Chinese",
+                     "Tandoori"
+                 ],
+        "description":  "The Yellow Chilli is a popular Bakery restaurant in Sector 72, Noida. Known for Veg, Chinese, Tandoori. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Faasos",
+        "category":  "Thai",
+        "subcategory":  "Delivery",
+        "rating":  3.7,
+        "reviews":  2903,
+        "delivery_time":  "32 mins",
+        "pricing":  {
+                        "average":  "₹394",
+                        "meal_for_one":  "₹394",
+                        "min":  "₹213",
+                        "delivery_fee":  "₹33",
+                        "max":  "₹576",
+                        "meal_for_two":  "₹788"
+                    },
+        "lat":  28.548756,
+        "lon":  77.380053,
+        "sector":  "Sector 63",
+        "pincode":  "201373",
+        "tags":  [
+                     "Biryani",
+                     "Desserts",
+                     "Veg"
+                 ],
+        "description":  "Faasos is a popular Thai restaurant in Sector 63, Noida. Known for Biryani, Desserts, Veg. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Bikanervala",
+        "category":  "Fast Food",
+        "subcategory":  "Delivery",
+        "rating":  3.6,
+        "reviews":  251,
+        "delivery_time":  "44 mins",
+        "pricing":  {
+                        "average":  "₹546",
+                        "meal_for_one":  "₹546",
+                        "min":  "₹296",
+                        "delivery_fee":  "₹13",
+                        "max":  "₹797",
+                        "meal_for_two":  "₹1092"
+                    },
+        "lat":  28.51756,
+        "lon":  77.385508,
+        "sector":  "Sector 104",
+        "pincode":  "201341",
+        "tags":  [
+                     "Healthy",
+                     "Pasta",
+                     "Tandoori",
+                     "Chinese"
+                 ],
+        "description":  "Bikanervala is a popular Fast Food restaurant in Sector 104, Noida. Known for Healthy, Pasta, Tandoori, Chinese. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "The Yellow Chilli",
+        "category":  "Italian",
+        "subcategory":  "Premium Dining",
+        "rating":  4.3,
+        "reviews":  2420,
+        "delivery_time":  "38 mins",
+        "pricing":  {
+                        "average":  "₹436",
+                        "meal_for_one":  "₹436",
+                        "min":  "₹175",
+                        "delivery_fee":  "₹14",
+                        "max":  "₹696",
+                        "meal_for_two":  "₹872"
+                    },
+        "lat":  28.519527,
+        "lon":  77.381343,
+        "sector":  "Sector 38",
+        "pincode":  "201334",
+        "tags":  [
+                     "Healthy",
+                     "South Indian",
+                     "Biryani",
+                     "Burgers"
+                 ],
+        "description":  "The Yellow Chilli is a popular Italian restaurant in Sector 38, Noida. Known for Healthy, South Indian, Biryani, Burgers. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Punjab Grill",
+        "category":  "South Indian",
+        "subcategory":  "Budget Friendly",
+        "rating":  3.5,
+        "reviews":  2717,
+        "delivery_time":  "40 mins",
+        "pricing":  {
+                        "average":  "₹399",
+                        "meal_for_one":  "₹399",
+                        "min":  "₹169",
+                        "delivery_fee":  "₹26",
+                        "max":  "₹629",
+                        "meal_for_two":  "₹798"
+                    },
+        "lat":  28.525786,
+        "lon":  77.368418,
+        "sector":  "Sector 45",
+        "pincode":  "201363",
+        "tags":  [
+                     "Non-Veg",
+                     "Rolls",
+                     "Coffee",
+                     "Desserts"
+                 ],
+        "description":  "Punjab Grill is a popular South Indian restaurant in Sector 45, Noida. Known for Non-Veg, Rolls, Coffee, Desserts. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Tandoori Junction",
+        "category":  "Chinese",
+        "subcategory":  "Fast Food",
+        "rating":  3.6,
+        "reviews":  4405,
+        "delivery_time":  "26 mins",
+        "pricing":  {
+                        "average":  "₹444",
+                        "meal_for_one":  "₹444",
+                        "min":  "₹294",
+                        "delivery_fee":  "₹44",
+                        "max":  "₹595",
+                        "meal_for_two":  "₹888"
+                    },
+        "lat":  28.518153,
+        "lon":  77.361364000000009,
+        "sector":  "Sector 22",
+        "pincode":  "201332",
+        "tags":  [
+                     "Healthy",
+                     "Non-Veg"
+                 ],
+        "description":  "Tandoori Junction is a popular Chinese restaurant in Sector 22, Noida. Known for Healthy, Non-Veg. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Southy",
+        "category":  "BBQ",
+        "subcategory":  "Delivery",
+        "rating":  4.3,
+        "reviews":  605,
+        "delivery_time":  "43 mins",
+        "pricing":  {
+                        "average":  "₹296",
+                        "meal_for_one":  "₹296",
+                        "min":  "₹240",
+                        "delivery_fee":  "₹48",
+                        "max":  "₹353",
+                        "meal_for_two":  "₹592"
+                    },
+        "lat":  28.542236,
+        "lon":  77.400403000000011,
+        "sector":  "Sector 38",
+        "pincode":  "201388",
+        "tags":  [
+                     "Biryani",
+                     "Chinese",
+                     "Pizza",
+                     "Coffee"
+                 ],
+        "description":  "Southy is a popular BBQ restaurant in Sector 38, Noida. Known for Biryani, Chinese, Pizza, Coffee. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Cafe Delhi Heights",
+        "category":  "Mughlai",
+        "subcategory":  "Cafe",
+        "rating":  4.5,
+        "reviews":  1243,
+        "delivery_time":  "48 mins",
+        "pricing":  {
+                        "average":  "₹400",
+                        "meal_for_one":  "₹400",
+                        "min":  "₹262",
+                        "delivery_fee":  "₹21",
+                        "max":  "₹539",
+                        "meal_for_two":  "₹800"
+                    },
+        "lat":  28.524646,
+        "lon":  77.416747,
+        "sector":  "Sector 135",
+        "pincode":  "201357",
+        "tags":  [
+                     "Non-Veg",
+                     "Healthy"
+                 ],
+        "description":  "Cafe Delhi Heights is a popular Mughlai restaurant in Sector 135, Noida. Known for Non-Veg, Healthy. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Tandoori Junction",
+        "category":  "BBQ",
+        "subcategory":  "Budget Friendly",
+        "rating":  4.2,
+        "reviews":  2324,
+        "delivery_time":  "32 mins",
+        "pricing":  {
+                        "average":  "₹382",
+                        "meal_for_one":  "₹382",
+                        "min":  "₹208",
+                        "delivery_fee":  "₹30",
+                        "max":  "₹555",
+                        "meal_for_two":  "₹764"
+                    },
+        "lat":  28.537048,
+        "lon":  77.363082,
+        "sector":  "Sector 63",
+        "pincode":  "201314",
+        "tags":  [
+                     "Rolls",
+                     "South Indian"
+                 ],
+        "description":  "Tandoori Junction is a popular BBQ restaurant in Sector 63, Noida. Known for Rolls, South Indian. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Nazeer Foods",
+        "category":  "South Indian",
+        "subcategory":  "Delivery",
+        "rating":  4,
+        "reviews":  4575,
+        "delivery_time":  "24 mins",
+        "pricing":  {
+                        "average":  "₹258",
+                        "meal_for_one":  "₹258",
+                        "min":  "₹133",
+                        "delivery_fee":  "₹10",
+                        "max":  "₹384",
+                        "meal_for_two":  "₹516"
+                    },
+        "lat":  28.551504,
+        "lon":  77.400348000000008,
+        "sector":  "Sector 35",
+        "pincode":  "201302",
+        "tags":  [
+                     "Rolls",
+                     "Veg"
+                 ],
+        "description":  "Nazeer Foods is a popular South Indian restaurant in Sector 35, Noida. Known for Rolls, Veg. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Punjab Grill",
+        "category":  "BBQ",
+        "subcategory":  "Fine Dining",
+        "rating":  4.1,
+        "reviews":  4791,
+        "delivery_time":  "21 mins",
+        "pricing":  {
+                        "average":  "₹362",
+                        "meal_for_one":  "₹362",
+                        "min":  "₹219",
+                        "delivery_fee":  "₹35",
+                        "max":  "₹504",
+                        "meal_for_two":  "₹724"
+                    },
+        "lat":  28.510876,
+        "lon":  77.39609,
+        "sector":  "Sector 62",
+        "pincode":  "201326",
+        "tags":  [
+                     "Biryani",
+                     "Coffee",
+                     "Burgers"
+                 ],
+        "description":  "Punjab Grill is a popular BBQ restaurant in Sector 62, Noida. Known for Biryani, Coffee, Burgers. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Bakingo",
+        "category":  "Thai",
+        "subcategory":  "Fast Food",
+        "rating":  4.7,
+        "reviews":  2695,
+        "delivery_time":  "19 mins",
+        "pricing":  {
+                        "average":  "₹525",
+                        "meal_for_one":  "₹525",
+                        "min":  "₹270",
+                        "delivery_fee":  "₹1",
+                        "max":  "₹780",
+                        "meal_for_two":  "₹1050"
+                    },
+        "lat":  28.536344,
+        "lon":  77.419899,
+        "sector":  "Sector 110",
+        "pincode":  "201325",
+        "tags":  [
+                     "Desserts",
+                     "Rolls",
+                     "South Indian"
+                 ],
+        "description":  "Bakingo is a popular Thai restaurant in Sector 110, Noida. Known for Desserts, Rolls, South Indian. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Masala Darbar",
+        "category":  "Mughlai",
+        "subcategory":  "Fast Food",
+        "rating":  4,
+        "reviews":  2385,
+        "delivery_time":  "26 mins",
+        "pricing":  {
+                        "average":  "₹383",
+                        "meal_for_one":  "₹383",
+                        "min":  "₹211",
+                        "delivery_fee":  "₹40",
+                        "max":  "₹555",
+                        "meal_for_two":  "₹766"
+                    },
+        "lat":  28.512416,
+        "lon":  77.38283,
+        "sector":  "Sector 32",
+        "pincode":  "201325",
+        "tags":  [
+                     "Healthy",
+                     "Biryani"
+                 ],
+        "description":  "Masala Darbar is a popular Mughlai restaurant in Sector 32, Noida. Known for Healthy, Biryani. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Ghar Ka Khana",
+        "category":  "Bakery",
+        "subcategory":  "Casual Dining",
+        "rating":  3.5,
+        "reviews":  2079,
+        "delivery_time":  "21 mins",
+        "pricing":  {
+                        "average":  "₹416",
+                        "meal_for_one":  "₹416",
+                        "min":  "₹250",
+                        "delivery_fee":  "₹34",
+                        "max":  "₹583",
+                        "meal_for_two":  "₹832"
+                    },
+        "lat":  28.555135,
+        "lon":  77.38772800000001,
+        "sector":  "Sector 107",
+        "pincode":  "201392",
+        "tags":  [
+                     "South Indian",
+                     "Tandoori",
+                     "Veg"
+                 ],
+        "description":  "Ghar Ka Khana is a popular Bakery restaurant in Sector 107, Noida. Known for South Indian, Tandoori, Veg. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Starbucks",
+        "category":  "Fast Food",
+        "subcategory":  "Cafe",
+        "rating":  3.4,
+        "reviews":  3566,
+        "delivery_time":  "20 mins",
+        "pricing":  {
+                        "average":  "₹338",
+                        "meal_for_one":  "₹338",
+                        "min":  "₹186",
+                        "delivery_fee":  "₹20",
+                        "max":  "₹489",
+                        "meal_for_two":  "₹676"
+                    },
+        "lat":  28.550085,
+        "lon":  77.361666,
+        "sector":  "Sector 25",
+        "pincode":  "201337",
+        "tags":  [
+                     "Veg",
+                     "Coffee"
+                 ],
+        "description":  "Starbucks is a popular Fast Food restaurant in Sector 25, Noida. Known for Veg, Coffee. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Mighty Burger",
+        "category":  "North Indian",
+        "subcategory":  "Premium Dining",
+        "rating":  3.4,
+        "reviews":  437,
+        "delivery_time":  "24 mins",
+        "pricing":  {
+                        "average":  "₹408",
+                        "meal_for_one":  "₹408",
+                        "min":  "₹235",
+                        "delivery_fee":  "₹29",
+                        "max":  "₹581",
+                        "meal_for_two":  "₹816"
+                    },
+        "lat":  28.510094,
+        "lon":  77.391680000000008,
+        "sector":  "Sector 63",
+        "pincode":  "201357",
+        "tags":  [
+                     "Non-Veg",
+                     "Healthy",
+                     "Burgers",
+                     "Biryani"
+                 ],
+        "description":  "Mighty Burger is a popular North Indian restaurant in Sector 63, Noida. Known for Non-Veg, Healthy, Burgers, Biryani. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Masala Darbar",
+        "category":  "South Indian",
+        "subcategory":  "Budget Friendly",
+        "rating":  3.9,
+        "reviews":  4974,
+        "delivery_time":  "29 mins",
+        "pricing":  {
+                        "average":  "₹276",
+                        "meal_for_one":  "₹276",
+                        "min":  "₹192",
+                        "delivery_fee":  "₹46",
+                        "max":  "₹360",
+                        "meal_for_two":  "₹552"
+                    },
+        "lat":  28.510667,
+        "lon":  77.394773,
+        "sector":  "Sector 62",
+        "pincode":  "201343",
+        "tags":  [
+                     "Biryani",
+                     "Burgers",
+                     "Desserts"
+                 ],
+        "description":  "Masala Darbar is a popular South Indian restaurant in Sector 62, Noida. Known for Biryani, Burgers, Desserts. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Nazeer Foods",
+        "category":  "South Indian",
+        "subcategory":  "Premium Dining",
+        "rating":  4.4,
+        "reviews":  821,
+        "delivery_time":  "20 mins",
+        "pricing":  {
+                        "average":  "₹264",
+                        "meal_for_one":  "₹264",
+                        "min":  "₹205",
+                        "delivery_fee":  "₹17",
+                        "max":  "₹324",
+                        "meal_for_two":  "₹528"
+                    },
+        "lat":  28.52099,
+        "lon":  77.41909600000001,
+        "sector":  "Sector 63",
+        "pincode":  "201356",
+        "tags":  [
+                     "Pasta",
+                     "Chinese",
+                     "South Indian",
+                     "Non-Veg"
+                 ],
+        "description":  "Nazeer Foods is a popular South Indian restaurant in Sector 63, Noida. Known for Pasta, Chinese, South Indian, Non-Veg. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Gola Sizzlers",
+        "category":  "Bakery",
+        "subcategory":  "Cafe",
+        "rating":  4.7,
+        "reviews":  3236,
+        "delivery_time":  "49 mins",
+        "pricing":  {
+                        "average":  "₹322",
+                        "meal_for_one":  "₹322",
+                        "min":  "₹175",
+                        "delivery_fee":  "₹33",
+                        "max":  "₹468",
+                        "meal_for_two":  "₹644"
+                    },
+        "lat":  28.564946,
+        "lon":  77.388384,
+        "sector":  "Sector 135",
+        "pincode":  "201337",
+        "tags":  [
+                     "Veg",
+                     "Chinese",
+                     "South Indian"
+                 ],
+        "description":  "Gola Sizzlers is a popular Bakery restaurant in Sector 135, Noida. Known for Veg, Chinese, South Indian. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Fire Wings",
+        "category":  "Fast Food",
+        "subcategory":  "Fast Food",
+        "rating":  4.2,
+        "reviews":  4210,
+        "delivery_time":  "42 mins",
+        "pricing":  {
+                        "average":  "₹273",
+                        "meal_for_one":  "₹273",
+                        "min":  "₹195",
+                        "delivery_fee":  "₹21",
+                        "max":  "₹351",
+                        "meal_for_two":  "₹546"
+                    },
+        "lat":  28.559217,
+        "lon":  77.392464,
+        "sector":  "Sector 75",
+        "pincode":  "201374",
+        "tags":  [
+                     "Biryani",
+                     "Pasta",
+                     "Chinese",
+                     "Tandoori"
+                 ],
+        "description":  "Fire Wings is a popular Fast Food restaurant in Sector 75, Noida. Known for Biryani, Pasta, Chinese, Tandoori. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Mainland China",
+        "category":  "Mughlai",
+        "subcategory":  "Delivery",
+        "rating":  4.2,
+        "reviews":  3047,
+        "delivery_time":  "23 mins",
+        "pricing":  {
+                        "average":  "₹424",
+                        "meal_for_one":  "₹424",
+                        "min":  "₹220",
+                        "delivery_fee":  "₹35",
+                        "max":  "₹629",
+                        "meal_for_two":  "₹848"
+                    },
+        "lat":  28.549678,
+        "lon":  77.392153000000008,
+        "sector":  "Sector 104",
+        "pincode":  "201310",
+        "tags":  [
+                     "Pasta",
+                     "Biryani",
+                     "South Indian"
+                 ],
+        "description":  "Mainland China is a popular Mughlai restaurant in Sector 104, Noida. Known for Pasta, Biryani, South Indian. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Amici Café",
+        "category":  "Cafe",
+        "subcategory":  "Premium Dining",
+        "rating":  4.7,
+        "reviews":  3454,
+        "delivery_time":  "22 mins",
+        "pricing":  {
+                        "average":  "₹341",
+                        "meal_for_one":  "₹341",
+                        "min":  "₹199",
+                        "delivery_fee":  "₹23",
+                        "max":  "₹483",
+                        "meal_for_two":  "₹682"
+                    },
+        "lat":  28.526693,
+        "lon":  77.418928000000008,
+        "sector":  "Sector 128",
+        "pincode":  "201332",
+        "tags":  [
+                     "Coffee",
+                     "Biryani",
+                     "Healthy",
+                     "Chinese"
+                 ],
+        "description":  "Amici Café is a popular Cafe restaurant in Sector 128, Noida. Known for Coffee, Biryani, Healthy, Chinese. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Bangkok Street",
+        "category":  "BBQ",
+        "subcategory":  "Fast Food",
+        "rating":  4.5,
+        "reviews":  1571,
+        "delivery_time":  "22 mins",
+        "pricing":  {
+                        "average":  "₹362",
+                        "meal_for_one":  "₹362",
+                        "min":  "₹156",
+                        "delivery_fee":  "₹18",
+                        "max":  "₹567",
+                        "meal_for_two":  "₹724"
+                    },
+        "lat":  28.514929,
+        "lon":  77.41082200000001,
+        "sector":  "Sector 75",
+        "pincode":  "201341",
+        "tags":  [
+                     "Coffee",
+                     "Tandoori",
+                     "Chinese"
+                 ],
+        "description":  "Bangkok Street is a popular BBQ restaurant in Sector 75, Noida. Known for Coffee, Tandoori, Chinese. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Gola Sizzlers",
+        "category":  "Chinese",
+        "subcategory":  "Budget Friendly",
+        "rating":  3.7,
+        "reviews":  2230,
+        "delivery_time":  "29 mins",
+        "pricing":  {
+                        "average":  "₹324",
+                        "meal_for_one":  "₹324",
+                        "min":  "₹214",
+                        "delivery_fee":  "₹39",
+                        "max":  "₹435",
+                        "meal_for_two":  "₹648"
+                    },
+        "lat":  28.523454,
+        "lon":  77.384144,
+        "sector":  "Sector 104",
+        "pincode":  "201339",
+        "tags":  [
+                     "Healthy",
+                     "Non-Veg",
+                     "Rolls"
+                 ],
+        "description":  "Gola Sizzlers is a popular Chinese restaurant in Sector 104, Noida. Known for Healthy, Non-Veg, Rolls. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Southy",
+        "category":  "South Indian",
+        "subcategory":  "Fast Food",
+        "rating":  3.6,
+        "reviews":  4071,
+        "delivery_time":  "29 mins",
+        "pricing":  {
+                        "average":  "₹330",
+                        "meal_for_one":  "₹330",
+                        "min":  "₹243",
+                        "delivery_fee":  "₹47",
+                        "max":  "₹417",
+                        "meal_for_two":  "₹660"
+                    },
+        "lat":  28.505737,
+        "lon":  77.399253,
+        "sector":  "Sector 107",
+        "pincode":  "201318",
+        "tags":  [
+                     "Desserts",
+                     "Rolls",
+                     "South Indian",
+                     "Coffee"
+                 ],
+        "description":  "Southy is a popular South Indian restaurant in Sector 107, Noida. Known for Desserts, Rolls, South Indian, Coffee. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Tandoori Junction",
+        "category":  "Chinese",
+        "subcategory":  "Delivery",
+        "rating":  3.3,
+        "reviews":  2266,
+        "delivery_time":  "43 mins",
+        "pricing":  {
+                        "average":  "₹440",
+                        "meal_for_one":  "₹440",
+                        "min":  "₹154",
+                        "delivery_fee":  "₹35",
+                        "max":  "₹726",
+                        "meal_for_two":  "₹880"
+                    },
+        "lat":  28.558712,
+        "lon":  77.378504,
+        "sector":  "Sector 76",
+        "pincode":  "201350",
+        "tags":  [
+                     "Chinese",
+                     "Non-Veg"
+                 ],
+        "description":  "Tandoori Junction is a popular Chinese restaurant in Sector 76, Noida. Known for Chinese, Non-Veg. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Sushi Mura",
+        "category":  "Thai",
+        "subcategory":  "Fine Dining",
+        "rating":  3.3,
+        "reviews":  1827,
+        "delivery_time":  "23 mins",
+        "pricing":  {
+                        "average":  "₹254",
+                        "meal_for_one":  "₹254",
+                        "min":  "₹170",
+                        "delivery_fee":  "₹45",
+                        "max":  "₹337",
+                        "meal_for_two":  "₹508"
+                    },
+        "lat":  28.557739,
+        "lon":  77.408367,
+        "sector":  "Sector 135",
+        "pincode":  "201308",
+        "tags":  [
+                     "Healthy",
+                     "Burgers"
+                 ],
+        "description":  "Sushi Mura is a popular Thai restaurant in Sector 135, Noida. Known for Healthy, Burgers. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Sardar Ji Ka Dhaba",
+        "category":  "Italian",
+        "subcategory":  "Budget Friendly",
+        "rating":  4.9,
+        "reviews":  1776,
+        "delivery_time":  "39 mins",
+        "pricing":  {
+                        "average":  "₹436",
+                        "meal_for_one":  "₹436",
+                        "min":  "₹221",
+                        "delivery_fee":  "₹44",
+                        "max":  "₹652",
+                        "meal_for_two":  "₹872"
+                    },
+        "lat":  28.555882,
+        "lon":  77.39183100000001,
+        "sector":  "Sector 110",
+        "pincode":  "201320",
+        "tags":  [
+                     "Chinese",
+                     "Coffee",
+                     "Desserts",
+                     "Pizza"
+                 ],
+        "description":  "Sardar Ji Ka Dhaba is a popular Italian restaurant in Sector 110, Noida. Known for Chinese, Coffee, Desserts, Pizza. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "The Yellow Chilli",
+        "category":  "South Indian",
+        "subcategory":  "Casual Dining",
+        "rating":  4.3,
+        "reviews":  2923,
+        "delivery_time":  "27 mins",
+        "pricing":  {
+                        "average":  "₹362",
+                        "meal_for_one":  "₹362",
+                        "min":  "₹238",
+                        "delivery_fee":  "₹28",
+                        "max":  "₹486",
+                        "meal_for_two":  "₹724"
+                    },
+        "lat":  28.538905,
+        "lon":  77.380742000000012,
+        "sector":  "Sector 100",
+        "pincode":  "201353",
+        "tags":  [
+                     "Veg",
+                     "Tandoori"
+                 ],
+        "description":  "The Yellow Chilli is a popular South Indian restaurant in Sector 100, Noida. Known for Veg, Tandoori. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "The Great Kabab Factory",
+        "category":  "Mughlai",
+        "subcategory":  "Delivery",
+        "rating":  4.3,
+        "reviews":  3491,
+        "delivery_time":  "39 mins",
+        "pricing":  {
+                        "average":  "₹231",
+                        "meal_for_one":  "₹231",
+                        "min":  "₹179",
+                        "delivery_fee":  "₹6",
+                        "max":  "₹283",
+                        "meal_for_two":  "₹462"
+                    },
+        "lat":  28.526194,
+        "lon":  77.380317,
+        "sector":  "Sector 128",
+        "pincode":  "201348",
+        "tags":  [
+                     "Burgers",
+                     "Rolls",
+                     "Coffee"
+                 ],
+        "description":  "The Great Kabab Factory is a popular Mughlai restaurant in Sector 128, Noida. Known for Burgers, Rolls, Coffee. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Masala Darbar",
+        "category":  "Bakery",
+        "subcategory":  "Premium Dining",
+        "rating":  4.3,
+        "reviews":  3030,
+        "delivery_time":  "25 mins",
+        "pricing":  {
+                        "average":  "₹425",
+                        "meal_for_one":  "₹425",
+                        "min":  "₹150",
+                        "delivery_fee":  "₹27",
+                        "max":  "₹700",
+                        "meal_for_two":  "₹850"
+                    },
+        "lat":  28.514574,
+        "lon":  77.369790000000009,
+        "sector":  "Sector 62",
+        "pincode":  "201324",
+        "tags":  [
+                     "Pasta",
+                     "Desserts"
+                 ],
+        "description":  "Masala Darbar is a popular Bakery restaurant in Sector 62, Noida. Known for Pasta, Desserts. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Theos",
+        "category":  "Healthy Food",
+        "subcategory":  "Fine Dining",
+        "rating":  4.2,
+        "reviews":  2551,
+        "delivery_time":  "38 mins",
+        "pricing":  {
+                        "average":  "₹249",
+                        "meal_for_one":  "₹249",
+                        "min":  "₹190",
+                        "delivery_fee":  "₹3",
+                        "max":  "₹308",
+                        "meal_for_two":  "₹498"
+                    },
+        "lat":  28.531483,
+        "lon":  77.412322,
+        "sector":  "Sector 76",
+        "pincode":  "201361",
+        "tags":  [
+                     "Tandoori",
+                     "Coffee"
+                 ],
+        "description":  "Theos is a popular Healthy Food restaurant in Sector 76, Noida. Known for Tandoori, Coffee. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Gola Sizzlers",
+        "category":  "Mughlai",
+        "subcategory":  "Cafe",
+        "rating":  4.1,
+        "reviews":  2470,
+        "delivery_time":  "37 mins",
+        "pricing":  {
+                        "average":  "₹556",
+                        "meal_for_one":  "₹556",
+                        "min":  "₹257",
+                        "delivery_fee":  "₹22",
+                        "max":  "₹854",
+                        "meal_for_two":  "₹1112"
+                    },
+        "lat":  28.551861,
+        "lon":  77.365892,
+        "sector":  "Sector 75",
+        "pincode":  "201397",
+        "tags":  [
+                     "South Indian",
+                     "Burgers",
+                     "Pizza"
+                 ],
+        "description":  "Gola Sizzlers is a popular Mughlai restaurant in Sector 75, Noida. Known for South Indian, Burgers, Pizza. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Wow Momo",
+        "category":  "Chinese",
+        "subcategory":  "Premium Dining",
+        "rating":  4.1,
+        "reviews":  2830,
+        "delivery_time":  "46 mins",
+        "pricing":  {
+                        "average":  "₹442",
+                        "meal_for_one":  "₹442",
+                        "min":  "₹229",
+                        "delivery_fee":  "₹21",
+                        "max":  "₹654",
+                        "meal_for_two":  "₹884"
+                    },
+        "lat":  28.550818,
+        "lon":  77.417638000000011,
+        "sector":  "Sector 110",
+        "pincode":  "201367",
+        "tags":  [
+                     "South Indian",
+                     "Healthy",
+                     "Pasta"
+                 ],
+        "description":  "Wow Momo is a popular Chinese restaurant in Sector 110, Noida. Known for South Indian, Healthy, Pasta. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Nazeer Foods",
+        "category":  "Cafe",
+        "subcategory":  "Premium Dining",
+        "rating":  4.9,
+        "reviews":  4499,
+        "delivery_time":  "28 mins",
+        "pricing":  {
+                        "average":  "₹438",
+                        "meal_for_one":  "₹438",
+                        "min":  "₹295",
+                        "delivery_fee":  "₹44",
+                        "max":  "₹580",
+                        "meal_for_two":  "₹876"
+                    },
+        "lat":  28.531742,
+        "lon":  77.419894,
+        "sector":  "Sector 38",
+        "pincode":  "201322",
+        "tags":  [
+                     "South Indian",
+                     "Coffee"
+                 ],
+        "description":  "Nazeer Foods is a popular Cafe restaurant in Sector 38, Noida. Known for South Indian, Coffee. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Mainland China",
+        "category":  "Japanese",
+        "subcategory":  "Casual Dining",
+        "rating":  4.8,
+        "reviews":  2852,
+        "delivery_time":  "19 mins",
+        "pricing":  {
+                        "average":  "₹282",
+                        "meal_for_one":  "₹282",
+                        "min":  "₹132",
+                        "delivery_fee":  "₹18",
+                        "max":  "₹433",
+                        "meal_for_two":  "₹564"
+                    },
+        "lat":  28.518919,
+        "lon":  77.411326,
+        "sector":  "Sector 38",
+        "pincode":  "201373",
+        "tags":  [
+                     "South Indian",
+                     "Coffee",
+                     "Pizza",
+                     "Desserts"
+                 ],
+        "description":  "Mainland China is a popular Japanese restaurant in Sector 38, Noida. Known for South Indian, Coffee, Pizza, Desserts. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Mainland China",
+        "category":  "Fast Food",
+        "subcategory":  "Casual Dining",
+        "rating":  4.5,
+        "reviews":  2219,
+        "delivery_time":  "48 mins",
+        "pricing":  {
+                        "average":  "₹345",
+                        "meal_for_one":  "₹345",
+                        "min":  "₹283",
+                        "delivery_fee":  "₹44",
+                        "max":  "₹407",
+                        "meal_for_two":  "₹690"
+                    },
+        "lat":  28.52625,
+        "lon":  77.37452,
+        "sector":  "Sector 32",
+        "pincode":  "201388",
+        "tags":  [
+                     "Rolls",
+                     "Tandoori",
+                     "Pasta",
+                     "Veg"
+                 ],
+        "description":  "Mainland China is a popular Fast Food restaurant in Sector 32, Noida. Known for Rolls, Tandoori, Pasta, Veg. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Rolls Mania",
+        "category":  "Fast Food",
+        "subcategory":  "Casual Dining",
+        "rating":  4.1,
+        "reviews":  2465,
+        "delivery_time":  "45 mins",
+        "pricing":  {
+                        "average":  "₹336",
+                        "meal_for_one":  "₹336",
+                        "min":  "₹143",
+                        "delivery_fee":  "₹4",
+                        "max":  "₹528",
+                        "meal_for_two":  "₹672"
+                    },
+        "lat":  28.520082,
+        "lon":  77.411145,
+        "sector":  "Sector 18",
+        "pincode":  "201369",
+        "tags":  [
+                     "Pizza",
+                     "South Indian",
+                     "Burgers",
+                     "Biryani"
+                 ],
+        "description":  "Rolls Mania is a popular Fast Food restaurant in Sector 18, Noida. Known for Pizza, South Indian, Burgers, Biryani. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Nazeer Foods",
+        "category":  "Fast Food",
+        "subcategory":  "Fine Dining",
+        "rating":  4.7,
+        "reviews":  258,
+        "delivery_time":  "30 mins",
+        "pricing":  {
+                        "average":  "₹367",
+                        "meal_for_one":  "₹367",
+                        "min":  "₹244",
+                        "delivery_fee":  "₹18",
+                        "max":  "₹490",
+                        "meal_for_two":  "₹734"
+                    },
+        "lat":  28.516837,
+        "lon":  77.395704000000009,
+        "sector":  "Sector 110",
+        "pincode":  "201361",
+        "tags":  [
+                     "Non-Veg",
+                     "Chinese"
+                 ],
+        "description":  "Nazeer Foods is a popular Fast Food restaurant in Sector 110, Noida. Known for Non-Veg, Chinese. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "The Great Kabab Factory",
+        "category":  "Italian",
+        "subcategory":  "Premium Dining",
+        "rating":  3.9,
+        "reviews":  3973,
+        "delivery_time":  "38 mins",
+        "pricing":  {
+                        "average":  "₹378",
+                        "meal_for_one":  "₹378",
+                        "min":  "₹245",
+                        "delivery_fee":  "₹43",
+                        "max":  "₹512",
+                        "meal_for_two":  "₹756"
+                    },
+        "lat":  28.508126,
+        "lon":  77.363909,
+        "sector":  "Sector 104",
+        "pincode":  "201393",
+        "tags":  [
+                     "Veg",
+                     "Biryani",
+                     "Rolls",
+                     "Desserts"
+                 ],
+        "description":  "The Great Kabab Factory is a popular Italian restaurant in Sector 104, Noida. Known for Veg, Biryani, Rolls, Desserts. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Chaayos",
+        "category":  "Mughlai",
+        "subcategory":  "Cafe",
+        "rating":  4.5,
+        "reviews":  4178,
+        "delivery_time":  "20 mins",
+        "pricing":  {
+                        "average":  "₹260",
+                        "meal_for_one":  "₹260",
+                        "min":  "₹121",
+                        "delivery_fee":  "₹34",
+                        "max":  "₹398",
+                        "meal_for_two":  "₹520"
+                    },
+        "lat":  28.543331,
+        "lon":  77.365193,
+        "sector":  "Sector 128",
+        "pincode":  "201313",
+        "tags":  [
+                     "Rolls",
+                     "Pizza",
+                     "Burgers"
+                 ],
+        "description":  "Chaayos is a popular Mughlai restaurant in Sector 128, Noida. Known for Rolls, Pizza, Burgers. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Nazeer Foods",
+        "category":  "Thai",
+        "subcategory":  "Budget Friendly",
+        "rating":  4,
+        "reviews":  93,
+        "delivery_time":  "18 mins",
+        "pricing":  {
+                        "average":  "₹542",
+                        "meal_for_one":  "₹542",
+                        "min":  "₹254",
+                        "delivery_fee":  "₹30",
+                        "max":  "₹831",
+                        "meal_for_two":  "₹1084"
+                    },
+        "lat":  28.534961,
+        "lon":  77.395362,
+        "sector":  "Sector 32",
+        "pincode":  "201320",
+        "tags":  [
+                     "Chinese",
+                     "Rolls",
+                     "Coffee",
+                     "South Indian"
+                 ],
+        "description":  "Nazeer Foods is a popular Thai restaurant in Sector 32, Noida. Known for Chinese, Rolls, Coffee, South Indian. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Chai Sutta Bar",
+        "category":  "North Indian",
+        "subcategory":  "Casual Dining",
+        "rating":  3.5,
+        "reviews":  4073,
+        "delivery_time":  "21 mins",
+        "pricing":  {
+                        "average":  "₹546",
+                        "meal_for_one":  "₹546",
+                        "min":  "₹279",
+                        "delivery_fee":  "₹28",
+                        "max":  "₹814",
+                        "meal_for_two":  "₹1092"
+                    },
+        "lat":  28.546226,
+        "lon":  77.41427800000001,
+        "sector":  "Sector 72",
+        "pincode":  "201339",
+        "tags":  [
+                     "Pasta",
+                     "Rolls",
+                     "Healthy",
+                     "South Indian"
+                 ],
+        "description":  "Chai Sutta Bar is a popular North Indian restaurant in Sector 72, Noida. Known for Pasta, Rolls, Healthy, South Indian. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Behrouz Biryani",
+        "category":  "Italian",
+        "subcategory":  "Casual Dining",
+        "rating":  4.1,
+        "reviews":  3377,
+        "delivery_time":  "44 mins",
+        "pricing":  {
+                        "average":  "₹302",
+                        "meal_for_one":  "₹302",
+                        "min":  "₹189",
+                        "delivery_fee":  "₹6",
+                        "max":  "₹416",
+                        "meal_for_two":  "₹604"
+                    },
+        "lat":  28.531461,
+        "lon":  77.377801,
+        "sector":  "Sector 25",
+        "pincode":  "201356",
+        "tags":  [
+                     "Desserts",
+                     "South Indian"
+                 ],
+        "description":  "Behrouz Biryani is a popular Italian restaurant in Sector 25, Noida. Known for Desserts, South Indian. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Pizza Hut",
+        "category":  "Bakery",
+        "subcategory":  "Premium Dining",
+        "rating":  3.5,
+        "reviews":  3164,
+        "delivery_time":  "38 mins",
+        "pricing":  {
+                        "average":  "₹428",
+                        "meal_for_one":  "₹428",
+                        "min":  "₹166",
+                        "delivery_fee":  "₹38",
+                        "max":  "₹689",
+                        "meal_for_two":  "₹856"
+                    },
+        "lat":  28.517471,
+        "lon":  77.391172000000012,
+        "sector":  "Sector 50",
+        "pincode":  "201377",
+        "tags":  [
+                     "Burgers",
+                     "Pizza",
+                     "Healthy",
+                     "Pasta"
+                 ],
+        "description":  "Pizza Hut is a popular Bakery restaurant in Sector 50, Noida. Known for Burgers, Pizza, Healthy, Pasta. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    },
+    {
+        "name":  "Domino’s Pizza",
+        "category":  "Healthy Food",
+        "subcategory":  "Premium Dining",
+        "rating":  4.3,
+        "reviews":  4631,
+        "delivery_time":  "31 mins",
+        "pricing":  {
+                        "average":  "₹426",
+                        "meal_for_one":  "₹426",
+                        "min":  "₹153",
+                        "delivery_fee":  "₹7",
+                        "max":  "₹700",
+                        "meal_for_two":  "₹852"
+                    },
+        "lat":  28.548263,
+        "lon":  77.395181000000008,
+        "sector":  "Sector 35",
+        "pincode":  "201336",
+        "tags":  [
+                     "Tandoori",
+                     "Pizza"
+                 ],
+        "description":  "Domino’s Pizza is a popular Healthy Food restaurant in Sector 35, Noida. Known for Tandoori, Pizza. Customers love the quality, taste and service.",
+        "opening_hours":  {
+                              "tuesday":  "10 AM - 11 PM",
+                              "friday":  "10 AM - 12 AM",
+                              "wednesday":  "10 AM - 11 PM",
+                              "saturday":  "10 AM - 12 AM",
+                              "thursday":  "10 AM - 11 PM",
+                              "monday":  "10 AM - 11 PM",
+                              "sunday":  "10 AM - 11 PM"
+                          }
+    }
+]

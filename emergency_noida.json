@@ -1,0 +1,17 @@
+﻿[
+    {
+        "number":  "102",
+        "name":  "Noida Ambulance Service",
+        "available":  true
+    },
+    {
+        "number":  "101",
+        "name":  "Fire Brigade Noida",
+        "available":  true
+    },
+    {
+        "number":  "100",
+        "name":  "Noida Police Control Room",
+        "available":  true
+    }
+]
